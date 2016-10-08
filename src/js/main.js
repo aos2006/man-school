@@ -32,7 +32,7 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow({
     content: contentString
   });
-  var image = '/img/marker.svg';
+  var image = 'img/marker.svg';
   var marker = new google.maps.Marker({
     position: moscow,
     map: map,
