@@ -1,19 +1,23 @@
 body
   font-family: Roboto, sans-serif
-  //min-width: 320px
   max-width: 1500px
   margin-left: auto
   margin-right: auto
+  text-size-adjust: auto
+  -ms-text-size-adjust: auto
 svg
   max-width: 100%
   max-height: 100%
 .out
-  overflow: hidden
+  height: 100%
+  +r(768px)
+    height: auto
 /*global styles*/
 .btn
   display: inline-block
   white-space: nowrap
   position: relative
+  text-align: center
   padding: 9px 16px
   height: 39px
   width: 100%
@@ -132,6 +136,8 @@ svg
   background-size: cover
   background-repeat: no-repeat
   font-size: 0
+  height: 100%
+  min-height: 100%
   +r(1024px)
     padding-top: 90px
     padding-bottom: 100px
@@ -370,6 +376,7 @@ svg
     line-height: 1.22
     min-width: 155px
     color: #fff
+    text-shadow: 1px 1px 0 black
     +r(768px)
       max-width: 90px
       min-width: 90px
@@ -803,7 +810,6 @@ svg
     padding-bottom: 32px
   +r(768px)
     padding-bottom: 450px
-    background-color: #ecffee
     background-position: 50% 100%
     background-size: 244px 402px
     & .container
@@ -937,8 +943,6 @@ svg
   &__channels-list
     margin-bottom: 18px
     font-size: 0
-    +r(768px)
-      display: none
   &__chanel
     display: inline-block
     vertical-align: middle
@@ -951,6 +955,9 @@ svg
     &:last-of-type
       padding-right: 0
       border-right: none
+    +r(768px)
+      border-right: none
+      width: 50%
     &--active
       & .reports__icon--russia
         background-image: url('../img/channel-russ--active.png')
@@ -982,7 +989,7 @@ svg
   &__arrow
     top: calc(50% + 31px)
     +r(768px)
-      top: 50%
+      top: calc(50% + 53px)
     &--left
       right: calc(100% + 12px)
       +r(768px)
@@ -1046,18 +1053,11 @@ svg
           border-left-width: 15px
           border-bottom-width: 40px
       +r(768px)
-        right: calc(100% - 23px)
-        border-left-width: 16px
+        right: calc(100% - 30px)
         border-right-color: #000
-        border-top-width: 37px
-        border-bottom-width: 37px
         &:before
-          top: -25px
           left: 5px
-          border-top-width: 25px
-          border-left-width: 12px
           border-right-color: #fff
-          border-bottom-width: 25px
     &--right
       left: calc(100% + 12px)
       +r(1024px)
@@ -1071,18 +1071,11 @@ svg
           border-right-width: 15px
           border-bottom-width: 40px
       +r(768px)
-        left: calc(100% - 23px)
-        border-right-width: 16px
-        border-top-width: 37px
-        border-bottom-width: 37px
+        left: calc(100% - 30px)
         border-left-color: #000
         &:before
-          top: -25px
           right: 5px
-          border-top-width: 25px
-          border-right-width: 12px
           border-left-color: #fff
-          border-bottom-width: 25px
   &__slide
     width: 100%
   &__video
@@ -1091,7 +1084,10 @@ svg
     width: 55.526658%
     margin-right: 20px
     +r(768px)
-      width: 100%
+      display: block
+      width: 90%
+      margin-right: auto
+      margin-left: auto
       margin-bottom: 50px
     & iframe
       width: 100%
@@ -1105,13 +1101,9 @@ svg
       width: 100%
     & > p
       font-size: 13px
-      font-weight: 400
+      font-weight: 900
       line-height: 1.54
       +r(1024px)
-        font-size: 12px
-        font-weight: 400
-        line-height: 1.33
-      +r(768px)
         font-size: 12px
         line-height: 1.33
   &__name
@@ -1251,14 +1243,20 @@ svg
 .slider-menu
   position: fixed
   z-index: 10
-  padding: 14px 0
+  height: 0
+  padding: 0
+  overflow: hidden
   top: 0
   left: 0
   right: 0
-  height: 100px
   background: #000
   font-size: 0
+  transition: height .2s linear
+  &--show
+    transition: height .2s linear
+    height: 100px
   & .container
+    padding: 14px 0
     height: 100%
     display: flex
     align-items: center
@@ -1294,7 +1292,7 @@ svg
   &__btn
     display: inline-block
     margin-left: auto
-    max-width: 251px
+    max-width: 260px
     &--md
       +r(768px)
         display: none
@@ -1350,6 +1348,9 @@ svg
     font-weight: 300
     line-height: 1.33
     color: #fff
+
+.thanks
+  transform: none
 
 .modal-form
   &__form

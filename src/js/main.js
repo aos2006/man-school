@@ -166,11 +166,12 @@ $(document).ready(function() {
   var btnShowModal = $('.js-show-modal');
 
   window.onscroll = function() {
+    var sliderMenu = $('.js-slider-menu');
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
     if (scrolled > 650) {
-      sliderMenu.slideDown();
+      sliderMenu.addClass('slider-menu--show');
     } else {
-      sliderMenu.slideUp();
+      sliderMenu.removeClass('slider-menu--show');
     }
   };
 
