@@ -61,14 +61,13 @@
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="952" column="13" selection-start-line="952" selection-start-column="13" selection-end-line="952" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="976" column="51" selection-start-line="976" selection-start-column="51" selection-end-line="976" selection-end-column="51" />
               <folding>
                 <element signature="e#3903#4205#0" expanded="false" />
                 <element signature="e#4245#4626#0" expanded="false" />
                 <element signature="e#4984#5734#0" expanded="false" />
                 <element signature="e#13157#13260#0" expanded="false" />
-                <element signature="e#19680#20173#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -697,12 +696,12 @@
       <updated>1475749557736</updated>
       <workItem from="1475749559125" duration="452000" />
       <workItem from="1475752398506" duration="80245000" />
-      <workItem from="1475913072491" duration="2225000" />
+      <workItem from="1475913072491" duration="2638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82922000" />
+    <option name="totallyTimeSpent" value="83335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -790,7 +789,6 @@
             <element signature="e#4245#4626#0" expanded="false" />
             <element signature="e#4984#5734#0" expanded="false" />
             <element signature="e#13157#13260#0" expanded="false" />
-            <element signature="e#19680#20173#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -977,6 +975,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/channel-russia--active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -990,21 +993,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/img/channel-russia--active.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="952" column="13" selection-start-line="952" selection-start-column="13" selection-end-line="952" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="976" column="51" selection-start-line="976" selection-start-column="51" selection-end-line="976" selection-end-column="51" />
           <folding>
             <element signature="e#3903#4205#0" expanded="false" />
             <element signature="e#4245#4626#0" expanded="false" />
             <element signature="e#4984#5734#0" expanded="false" />
             <element signature="e#13157#13260#0" expanded="false" />
-            <element signature="e#19680#20173#0" expanded="false" />
           </folding>
         </state>
       </provider>
