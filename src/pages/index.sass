@@ -1,0 +1,1382 @@
+body
+  font-family: Roboto, sans-serif
+  //min-width: 320px
+svg
+  max-width: 100%
+  max-height: 100%
+.out
+  overflow: hidden
+/*global styles*/
+.btn
+  display: inline-block
+  white-space: nowrap
+  position: relative
+  padding: 9px 16px
+  height: 39px
+  width: 100%
+  font-size: 13px
+  font-weight: 700
+  text-transform: uppercase
+  background-color: transparent
+  border: 3px solid #faf3ca
+  color: #fff
+  border-top-color: #cdc9ad
+  border-bottom-color: #d4cd98
+  &:active
+    background-image: linear-gradient(102deg, #cfc892 0%, #fff8cc 54%, #c9c5aa 100%)
+    box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.72)
+    color: #000
+    border: none
+  &:hover
+    background-image: linear-gradient(102deg, #cfc892 0%, #fff8cc 54%, #c9c5aa 100%)
+    border-color: transparent
+    color: #000
+
+.arrow-left
+  border-top: 80px solid transparent
+  border-right: 34px solid #fff
+  border-bottom: 80px solid transparent
+  +r(768px)
+    border-right-width: 20px
+  &:hover:before
+    border-right-color: #fff
+  &:before
+    position: absolute
+    content: ''
+    left: 7px
+    top: -50px
+    border-top: 50px solid transparent
+    border-right: 21px solid #000
+    border-bottom: 50px solid transparent
+    +r(768px)
+      top: -35px
+      left: 5px
+      border-top-width: 36px
+      border-right-width: 12px
+      border-bottom-width: 36px
+.arrow-right
+  border-top: 80px solid transparent
+  border-left: 34px solid #fff
+  border-bottom: 80px solid transparent
+  +r(768px)
+    border-left-width: 20px
+  &:hover:before
+    border-left-color: #fff
+  &:before
+    position: absolute
+    content: ''
+    right: 7px
+    top: -50px
+    border-top: 50px solid transparent
+    border-left: 21px solid #000
+    border-bottom: 50px solid transparent
+    +r(768px)
+      top: -35px
+      right: 5px
+      border-top-width: 36px
+      border-left-width: 12px
+      border-bottom-width: 36px
+.arrow-right,
+.arrow-left
+  position: absolute
+  z-index: 4
+  top: 50%
+  transform: translateY(-50%)
+  cursor: pointer
+  &:active
+    outline: none
+  +r(768px)
+    border-bottom-width: 50px
+    border-top-width: 50px
+  &:before
+    content: ''
+    width: 0
+    height: 0
+
+.quote
+  display: inline-block
+  width: 53px
+  height: 47px
+.text--gradient
+  color: #cfc892
+.title
+  font-size: 40px
+.input
+  display: block
+  margin-bottom: 16px
+  width: 100%
+  height: 39px
+  padding: 14px 21px 14px 21px
+  font-size: 15px
+  font-weight: 300
+  font-style: italic
+  color: #777675
+.container
+  @include container(730px)
+  +r(1024px)
+    @include container(100%)
+    margin: 0 7%
+  +r(768px)
+    margin: 0 5.9%
+/*global styles*/
+
+
+/*banner*/
+.banner
+  padding-top: 70px
+  padding-bottom: 146px
+  background-image: url('../img/banner-bg.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  font-size: 0
+  +r(1024px)
+    padding-top: 90px
+    padding-bottom: 100px
+  &__left-column
+    display: inline-block
+    vertical-align: bottom
+    width: 60%
+    +r(1024px)
+      display: block
+      margin-bottom: 67px
+      margin-left: auto
+      margin-right: auto
+      width: 320px
+    +r(400px)
+      width: 100%
+  &__right-column
+    display: inline-block
+    vertical-align: bottom
+    width: 40%
+    +r(1024px)
+      display: flex
+      flex-direction: column
+      width: 320px
+      margin-left: auto
+      margin-right: auto
+    +r(400px)
+      width: 100%
+  &__logo
+    margin-bottom: 70px
+  &__title
+    color: #fff
+    margin-bottom: 20px
+    font-size: 24px
+    font-weight: 400
+    line-height: 1.67
+  &__subtitle
+    margin-bottom: 60px
+    font-size: 35px
+    font-weight: 900
+    line-height: 1.37
+    color: #fff
+    white-space: pre-wrap
+  &__date
+    font-size: 16px
+    font-weight: 400
+    color: #fff
+    line-height: .9
+    & span
+      font-size: 42px
+      font-weight: 400
+      line-height: .8
+  &__form
+    margin-bottom: 91px
+/*banner*/
+
+/*form*/
+.form
+  &__title
+    margin-bottom: 16px
+    color: #fff
+    font-size: 16px
+    font-weight: 400
+    text-align: center
+    +r(1024px)
+      text-align: left
+    &--gold
+      text-align: left
+      color: #fef7cc
+      font-size: 22px
+      font-weight: 400
+      line-height: 1.27
+  &__btn
+    width: 100%
+/*form*/
+
+/*empty-order*/
+.empty-order
+  color: #fff
+  font-size: 15px
+  font-weight: 400
+  min-height: 33px
+  line-height: .8
+  & span
+    display: inline-block
+    vertical-align: bottom
+    font-size: 29px
+    font-weight: 400
+    background-color: #fff
+    color: #000
+    &:first-of-type
+      margin-left: 8px
+      padding: 6px 4px 6px 6px
+    &:last-of-type
+      margin-right: 8px
+      padding: 6px 6px 6px 4px
+/*empty-order*/
+
+/*what-you-now*/
+.what-you-now
+  padding-top: 71px
+  padding-bottom: 64px
+  background-color: #fff
+  font-size: 0
+  +r(1024px)
+    padding-bottom: 52px
+  +r(768px)
+    padding-top: 60px
+    padding-bottom: 33px
+  &__title
+    margin-bottom: 70px
+    +r(1024px)
+      margin-bottom: 60px
+    +r(768px)
+      max-width: 235px
+
+.features-list
+  &__row
+    margin-bottom: 42px
+    +r(1024px)
+      margin-bottom: 70px
+    +r(768px)
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      margin-bottom: 0
+    &:last-of-type
+      margin-bottom: 0
+  &__item
+    display: inline-block
+    vertical-align: top
+    width: 25%
+    +r(768px)
+      text-align: center
+      width: 50%
+      margin-bottom: 40px
+  &__icon
+    margin-bottom: 16px
+    display: block
+    width: 97px
+    height: 98px
+    +r(768px)
+      margin-left: auto
+      margin-right: auto
+  &__descr
+    max-width: 129px
+    font-size: 14px
+    line-height: 1.07
+    color: #000
+    +r(1024px)
+      max-width: 97px
+    +r(768px)
+      max-width: 135px
+      margin-left: auto
+      margin-right: auto
+/*what-you-now*/
+
+/*statistics*/
+.statistics
+  padding-top: 70px
+  padding-bottom: 143px
+  background-image: url('../img/statistics-bg.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-color: #000
+  +r(768px)
+    background-image: none
+  &__title
+    color: #fff
+    margin-bottom: 42px
+    +r(1024px)
+      margin-bottom: 51px
+    +r(768px)
+      font-size: 29px
+      margin-bottom: 62px
+      background-image: none
+/*statistics*/
+
+/*stats*/
+.stats
+  margin-bottom: 68px
+  &__i
+    display: inline-block
+    vertical-align: top
+    margin-right: 74px
+    +r(768px)
+      margin-right: 0
+      width: 100%
+      margin-bottom: 18px
+      &:last-of-type
+        margin-bottom: 0
+  &__decor-square
+    display: inline-block
+    vertical-align: middle
+    margin-right: 16px
+    width: 27px
+    height: 27px
+    border: 2px solid #fff
+    &--gradient
+      border: none
+      background-image: linear-gradient(152deg, #6d6e70 0%, #e7e7e7 54%, #929397 99%, #929397 100%)
+  &__txt
+    display: inline-block
+    vertical-align: middle
+    font-size: 18px
+    font-weight: 900
+    color: #fff
+/*stats*/
+
+
+/*graphics*/
+.graphics
+  display: flex
+  align-items: flex-end
+  justify-content: space-between
+  +r(400px)
+    justify-content: flex-start
+  &__item
+    position: relative
+    font-size: 0
+    width: 23.013699%
+    border-bottom: 7px solid white
+    +justify
+    +r(400px)
+      width: 69px
+      margin-right: 22px
+      &:last-of-type
+        margin-right: 0
+  &__label
+    position: absolute
+    text-align-last: left
+    left: 0
+    top: calc(100% + 24px)
+    font-size: 18px
+    font-weight: 900
+    line-height: 1.22
+    min-width: 155px
+    color: #fff
+    +r(768px)
+      max-width: 90px
+      min-width: 90px
+      top: calc(100% + 18px)
+      text-align: center
+      text-align-last: center
+      left: 50%
+      margin-left: -45px
+      font-size: 14px
+  &__graphic
+    display: inline-block
+    vertical-align: bottom
+    width: 58px
+    position: relative
+    height: 50px
+    background-color: #fff
+    +r(768px)
+      width: 24px
+    &--empty
+      border: 2px solid #fff
+      border-bottom: none
+      background-color: transparent
+    &--gradient
+      background-image: linear-gradient(152deg, #6d6e70 0%, #e7e7e7 54%, #929397 99%, #929397 100%)
+    &--xs
+      height: 19px
+    &--xm
+      height: 20px
+    &--xl
+      height: 36px
+    &--xxs
+      height: 173px
+    &--xxm
+      height: 180px
+    &--xxl
+      height: 199px
+  &__number
+    position: absolute
+    white-space: nowrap
+    bottom: calc(100% + 11px)
+    left: 50%
+    transform: translateX(-50%)
+    font-size: 38px
+    font-weight: 900
+    line-height: 0.58
+    color: #fff
+    +r(768px)
+      font-size: 25px
+/*graphics*/
+/*how-it-work*/
+.how-it-work
+  position: relative
+  padding-top: 70px
+  background-color: #fff
+  height: 682px
+  +r(1024px)
+    height: 673px
+  +r(768px)
+    padding-top: 62px
+    height: 1000px
+  & .container
+    position: relative
+    height: 100%
+  &__title
+    margin-bottom: 273px
+    +r(768px)
+      margin-bottom: 56px
+      text-align: center
+      font-size: 30px
+
+/*how-it-work*/
+
+/*steps-list*/
+.steps-list
+  +r(768px)
+    position: absolute
+    left: 50%
+    top: 450px
+    margin-left: -371px
+    transform: rotate(90deg)
+    width: 742px
+    height: 26px
+    //margin-top: 292px
+  &__item
+    position: relative
+    height: 26px
+    @include span(12.191781%)
+    margin-right: 6px
+    background: #6d6e70
+    +r(768px)
+      margin-top: auto
+      margin-bottom: auto
+      width: 96px
+      &:nth-of-type(5) img
+        margin-top: -82px
+      &:nth-of-type(7) img
+        margin-top: -67px
+    &:last-of-type
+      margin-right: 0
+    &:before
+      position: absolute
+      top: 0
+      bottom: 0
+      left: -1px
+      content: ''
+      width: 0
+      height: 0
+      border-top: 13px solid transparent
+      border-left: 8px solid #fff
+      border-bottom: 13px solid transparent
+    &:after
+      position: absolute
+      top: 0
+      bottom: 0
+      z-index: 2
+      left: 100%
+      content: ''
+      width: 0
+      height: 0
+      border-top: 13px solid transparent
+      border-left: 8px solid #6d6e70
+      border-bottom: 13px solid transparent
+  &__img
+    +r(768px)
+      height: 60px
+      overflow: hidden
+  &__icon
+    position: absolute
+    width: 100%
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 100%
+    text-align: center
+    +r(768px)
+      width: 120px
+      left: 50%
+      margin-left: -60px
+      transform: translateX(0)
+      position: relative
+      bottom: 0
+      margin-top: 31%
+      text-align: left
+      transform: rotate(-90deg)!important
+      &:before
+        top: 50%
+        content: ''
+        position: absolute
+        height: 1px
+        width: calc(100% - 60.5px)
+        right: 0
+        background: #c1c2c3
+      & .steps-list__img
+        text-align: left
+      & img
+        margin-top: -20px
+        max-width: 200px
+    &--bottom
+      position: relative
+      bottom: 0
+      left: 0
+      transform: none
+      margin-top: 5%
+      +r(768px)
+        left: 50%
+        margin-top: 0
+        margin-left: -60px
+        bottom: calc(100% + 90px)
+        text-align: right
+        & .steps-list__img
+          text-align: right
+        &:before
+          left: 0
+        & .steps-list__descr
+          text-align: right
+          width: 100px
+          left: 90px
+      & .steps-list__descr
+        top: calc(100% + 12px)
+  &__descr
+    position: absolute
+    width: 140px
+    left: 50%
+    margin-left: -70px
+    bottom: calc(100% + 12px)
+    text-align: center
+    font-size: 13px
+    line-height: 1.08
+    +r(1024px)
+      font-size: 12px
+    +r(768px)
+      width: 100px
+      left: 70px
+      top: calc(100% + 12px)
+      transform: none
+      text-align: left
+      font-size: 11px
+      line-height: 1.27
+  &__step
+    display: block
+    color: #fff
+    font-size: 13px
+    font-weight: 900
+    text-align: center
+    line-height: 26px
+    +r(768px)
+      transform: rotate(-90deg)
+
+/*steps-list*/
+
+/*feature*/
+.feature
+  padding-top: 90px
+  padding-bottom: 70px
+  background-image: url('../img/feature-bg.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  +r(1024px)
+    padding-top: 62px
+    padding-bottom: 75px
+  +r(768px)
+    background-position: 30% 100%
+  &__graphic
+    position: relative
+    +r(768px)
+      display: none
+  &__title
+    margin-bottom: 116px
+    color: #fff
+  &__vector-name
+    position: absolute
+    display: none
+    top: 285px
+    width: 0
+    height: 0
+    white-space: nowrap
+    right: calc(100% + 10px)
+    font-size: 12px
+    font-weight: 400
+    color: #fff
+    transform: rotate(-90deg)
+    text-transform: uppercase
+    +r(1024px)
+      display: block
+    &--bottom
+      top: 100%
+      right: 25px
+      width: auto
+      transform: none
+  &__descr
+    position: absolute
+    font-size: 14px
+    font-weight: 400
+    line-height: 1.43
+    color: #fff
+    text-align: right
+    &--1
+      left: 5%
+      bottom: 26%
+    &--2
+      left: 21%
+      bottom: 41%
+    &--3
+      left: 36%
+      bottom: 57%
+    &--4
+      left: 53%
+      bottom: 73%
+    &--5
+      left: 72%
+      bottom: 90%
+    &--6
+      left: 36%
+      bottom: 26%
+    &--7
+      left: 61%
+      bottom: 26%
+  &__graph-container
+    position: relative
+    width: 75px
+    margin-left: auto
+    margin-right: auto
+    height: 470px
+    display: none
+    +r(768px)
+      display: block
+  &__vertical-graphic
+    position: absolute
+    &--black
+      left: 0
+      top: 0
+    &--white
+      top: 0
+      right: 0
+  &__graphic-start
+    position: absolute
+    bottom: 100%
+    width: 18px
+    height: 5px
+    & span
+      text-align: center
+      left: 50%
+      min-width: 100px
+      transform: translate(-50%, 0)
+      top: -61px
+      height: 40px
+    &--black
+      left: -7px
+      border: 1px solid white
+      background-color: #000
+    &--white
+      left: -7px
+      background-color: #fff
+  &__graphic-circle
+    position: absolute
+    width: 21px
+    height: 21px
+    border-radius: 50%
+    left: -8px
+    &--black
+      border: 1px solid white
+      background-color: #000
+      top: 238px
+      & span
+        right: calc(100% + 5px)
+      &:nth-of-type(2)
+        top: 450px
+        left: 50%
+        margin-left: -8px
+        z-index: 2
+      &:before
+        position: absolute
+        border-radius: 50%
+        content: ''
+        top: 5px
+        bottom: 5px
+        left: 5px
+        right: 5px
+        border: 1px solid #fff
+        background-color: black
+    &--white
+      background-color: #fff
+      & span
+        min-width: 100px
+        left: calc(100% + 12px)
+      & i
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        min-width: 50px
+        text-align: right
+        right: calc(100% + 10px)
+      &:before
+        position: absolute
+        content: ''
+        top: 5px
+        bottom: 5px
+        left: 5px
+        right: 5px
+        border-radius: 50%
+        background-color: #111
+    &--white-1
+      top: 40px
+    &--white-2
+      top: 130px
+    &--white-3
+      top: 243px
+    &--white-4
+      top: 346px
+    &--white-5
+      top: 450px
+  &__graphic-line
+    position: absolute
+    width: 5px
+    &--black
+      border-left: 1px solid white
+      border-right: 1px solid white
+      background-color: #000
+      height: 238px
+      &:first-of-type
+        top: 259px
+        height: 192px
+    &--white
+      background-color: #fff
+    &--white-40
+      height: 40px
+      top: 0
+    &--white-75
+      height: 75px
+      top: 60px
+    &--white-93
+      height: 93px
+      top: 150px
+    &--white-88
+      height: 88px
+      top: 260px
+    &--white-84
+      height: 86px
+      top: 365px
+  &__graphic-label
+    position: absolute
+    min-width: 80px
+    top: 50%
+    transform: translateY(-50%)
+    color: #fff
+    font-size: 12px
+    font-weight: 400
+    line-height: 1.67
+    &--weight-900
+      font-weight: 900
+    &--weight-300
+      font-weight: 300
+    &--weight-400
+      font-weight: 400
+  &__date
+    color: #fff
+    font-size: 10px
+    font-weight: 900
+    font-style: normal
+/*feature*/
+
+/*teacher-info*/
+.teacher-info
+  background-color: #fff
+  padding-top: 50px
+  padding-bottom: 50px
+  background-image: url('../img/teacher-img.png')
+  background-size: 314px 517px
+  background-repeat: no-repeat
+  background-position: 90% 100%
+  +r(1024px)
+    background-position: 100% 100%
+    padding-bottom: 32px
+  +r(768px)
+    padding-bottom: 450px
+    background-color: #ecffee
+    background-position: 50% 100%
+    background-size: 244px 402px
+    & .container
+      width: 92.749658%
+  &__i
+    max-width: 530px
+    +r(768px)
+      margin-right: auto
+  &__title
+    margin-bottom: 50px
+    font-size: 28px
+    font-weight: 300
+    line-height: 1.75
+    & b
+      line-height: 1
+  &__quote
+    margin-bottom: 18px
+  & p
+    margin-bottom: 30px
+    font-size: 17px
+    font-weight: 400
+    line-height: 1.41
+    +r(1024px)
+      max-width: 401px
+    +r(768px)
+      font-size: 15px
+      line-height: 1.6
+      &:last-of-type
+        margin-bottom: 65px
+/*teacher-info*/
+
+/*vertical-graphic*/
+
+/*vertical-graphic*/
+
+/*trainingk-stats*/
+.training-stats
+  font-size: 0
+  white-space: nowrap
+  +r(450px)
+    white-space: normal
+  &__item
+    display: inline-block
+    vertical-align: top
+    border-right: 1px solid black
+    +r(768px)
+      min-height: 59px
+    &:first-of-type
+      padding-right: 18px
+      +r(768px)
+        padding-right: 6px
+    &:nth-child(2)
+      padding-left: 18px
+      padding-right: 18px
+      & .training-stats__label
+          white-space: pre-wrap
+      +r(768px)
+        padding-left: 11px
+        padding-right: 11px
+        & .training-stats__label
+          white-space: nowrap
+      +r(1024px)
+        & .training-stats__label
+          max-width: 64px
+    &:last-of-type
+      border-right: none
+      padding-right: 0
+      padding-left: 18px
+      +r(768px)
+        padding-left: 13px
+        & .training-stats__label
+          max-width: 68px
+  &__number
+    margin-bottom: 13px
+    font-size: 52px
+    font-weight: 900
+    line-height: 0.94
+    +r(768px)
+      font-size: 33px
+      line-height: 0.88
+  & p.training-stats__label
+    font-size: 12px
+    font-weight: 400
+    line-height: 1.42
+    margin-bottom: 0
+    +r(768px)
+      font-size: 10px
+      line-height: 1
+/*trainingk-stats*/
+
+/*reports*/
+.reports
+  background-image: url('../img/reports-bg.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  padding-top: 106px
+  padding-bottom: 74px
+  +r(1024px)
+    background-size: cover
+    background-position: 57% 0
+  +r(768px)
+    padding-bottom: 47px
+    background-position: 100% 0
+    background-size: cover
+  & .container
+    padding-left: 65px
+    +r(768px)
+      padding-left: 0
+      margin-left: 17.169583%
+    +r(400px)
+      margin-right: 40px
+      margin-left: 40px
+  &__title
+    color: #fff
+    margin-bottom: 64px
+    +r(768px)
+      margin-bottom: 53px
+      line-height: 1.37
+      font-size: 30px
+  &__slider
+    position: relative
+    max-width: 400px
+    +r(768px)
+      max-width: 241px
+      margin-left: 10px
+    +r(400px)
+      margin-left: 0
+      max-width: 100%
+  &__header
+    margin-bottom: 20px
+  &__channels-list
+    margin-bottom: 18px
+    font-size: 0
+    +r(768px)
+      display: none
+  &__chanel
+    display: inline-block
+    vertical-align: middle
+    min-width: 40px
+    padding: 0 10px
+    height: 44px
+    border-right: 1px solid #a2a2a2
+    &:first-of-type
+      padding-left: 0
+    &:last-of-type
+      padding-right: 0
+      border-right: none
+    &--active
+      & .reports__icon--russia
+        background-image: url('../img/channel-russia--active.png')
+      & .reports__icon--tnt
+        background-image: url('../img/channel-tnt--active.png')
+      & .reports__icon--elle
+        background-image: url('../img/channel-elle--active.png')
+      & .reports__icon--maxim
+        background-image: url('../img/channel-maxim--active.png')
+  &__icon
+    display: block
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: 0 50%
+    height: 100%
+    cursor: pointer
+    &--russia
+      width: 98px
+      background-image: url('../img/channel-russia.png')
+    &--tnt
+      width: 67px
+      background-image: url('../img/channel-tnt.png')
+    &--elle
+      width: 56px
+      background-image: url('../img/channel-elle.png')
+    &--maxim
+      width: 100px
+      background-image: url('../img/channel-maxim.png')
+  &__arrow
+    top: calc(50% + 31px)
+    +r(768px)
+      top: 50%
+    &--left
+      right: calc(100% + 12px)
+      +r(768px)
+        right: calc(100% + 7px)
+    &--right
+      left: calc(100% + 12px)
+      +r(768px)
+        left: calc(100% + 7px)
+  &__slide
+    +r(400px)
+      width: 100%
+    & iframe
+      width: 100%
+      +r(768px)
+        height: 181px
+
+
+/*reports*/
+/*comments*/
+.comments
+  background-color: #000
+  &__title
+    margin-bottom: 56px
+    +r(1024px)
+      margin-bottom: 45px
+    +r(768px)
+      font-size: 30px
+      margin-bottom: 25px
+  &__i
+    position: relative
+    @include container(769px)
+    padding: 70px 35px 46px
+    background-color: #fff
+    +r(1024px)
+      padding: 52px 30px 30px 30px
+      width: 84.063745%
+    +r(768px)
+      padding-top: 31px
+      padding-bottom: 50px
+      width: 69.52381%
+    +r(400px)
+      width: 100%
+  &__arrow
+    +r(1024px)
+      top: calc(50% + 18px)
+    +r(768px)
+      top: 213px
+      &:hover:before
+        border-left-color: #000
+        border-right-color: #000
+    &--left
+      right: calc(100% + 12px)
+      +r(1024px)
+        border-left-width: 20px
+        border-top-width: 65px
+        border-bottom-width: 65px
+        &:before
+          top: -40px
+          left: 7px
+          border-top-width: 40px
+          border-left-width: 15px
+          border-bottom-width: 40px
+      +r(768px)
+        right: calc(100% - 23px)
+        border-left-width: 16px
+        border-right-color: #000
+        border-top-width: 37px
+        border-bottom-width: 37px
+        &:before
+          top: -25px
+          left: 5px
+          border-top-width: 25px
+          border-left-width: 12px
+          border-right-color: #fff
+          border-bottom-width: 25px
+    &--right
+      left: calc(100% + 12px)
+      +r(1024px)
+        border-right-width: 20px
+        border-top-width: 65px
+        border-bottom-width: 65px
+        &:before
+          top: -40px
+          right: 7px
+          border-top-width: 40px
+          border-right-width: 15px
+          border-bottom-width: 40px
+      +r(768px)
+        left: calc(100% - 23px)
+        border-right-width: 16px
+        border-top-width: 37px
+        border-bottom-width: 37px
+        border-left-color: #000
+        &:before
+          top: -25px
+          right: 5px
+          border-top-width: 25px
+          border-right-width: 12px
+          border-left-color: #fff
+          border-bottom-width: 25px
+  &__slide
+    width: 100%
+  &__video
+    display: inline-block
+    vertical-align: top
+    width: 55.526658%
+    margin-right: 20px
+    +r(768px)
+      width: 100%
+      margin-bottom: 50px
+    & iframe
+      width: 100%
+      +r(1024px)
+        height: 195px
+  &__author
+    display: inline-block
+    vertical-align: top
+    width: 20.806242%
+    +r(768px)
+      width: 100%
+    & > p
+      font-size: 13px
+      font-weight: 400
+      line-height: 1.54
+      +r(1024px)
+        font-size: 12px
+        font-weight: 400
+        line-height: 1.33
+      +r(768px)
+        font-size: 12px
+        line-height: 1.33
+  &__name
+    margin-bottom: 10px
+    font-size: 17px
+    font-weight: 900
+    +r(1024px)
+      font-size: 16px
+      margin-bottom: 8px
+    +r(768px)
+      margin-bottom: 8px
+      font-size: 16px
+      line-height: 1.5
+  &__years
+    display: block
+    font-size: 14px
+    font-style: italic
+    margin-bottom: 30px
+    +r(1024px)
+      margin-bottom: 24px
+    +r(768px)
+      font-size: 14px
+      line-height: 1.71
+      margin-bottom: 20px
+  &__comment
+    margin-top: 45px
+    & p
+      display: inline-block
+      vertical-align: top
+      width: calc(100% - 60px)
+      font-size: 13px
+      font-weight: 400
+      +r(1024px)
+        line-height: 2
+        font-size: 12px
+      +r(768px)
+        width: 100%
+  &__quote
+    width: 35px
+    height: 31px
+    margin-right: 17px
+    display: inline-block
+    vertical-align: top
+    +r(768px)
+      display: block
+      margin-bottom: 18px
+      margin-right: 0
+    & .quote
+      width: 35px
+      height: 31px
+  &__dots
+    position: absolute
+    top: 165px
+    z-index: 2
+    left: 50%
+    width: 200px
+    transform: translateX(-50%)
+    font-size: 0
+    text-align: center
+    & li
+      display: inline-block
+      vertical-align: middle
+      width: 8px
+      height: 8px
+      margin-right: 12px
+      border: 1px solid black
+      border-radius: 50%
+      background-color: transparent
+      overflow: hidden
+      cursor: pointer
+      &:last-of-type
+        margin-right: 0
+      &.slick-active
+        background-color: #000
+    & button
+      display: none
+/*comments*/
+
+/*write-us*/
+.write-us
+  padding-top: 131px
+  padding-bottom: 117px
+  background-image: url('../img/write-us-bg.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  +r(768px)
+    background-position: 50% 100%
+  &__title
+    color: #fff
+    margin-bottom: 90px
+    line-height: 1.21
+  &__i
+    max-width: 300px
+  &__form
+    margin-bottom: 30px
+/*write-us*/
+
+/*place*/
+.place
+  position: relative
+  &__decor-triangle
+    position: absolute
+    z-index: 3
+    top: -1px
+    left: 0
+    right: 0
+    width: 100%
+    & img
+      width: 100%
+  &__title
+    position: absolute
+    left: 0
+    right: 0
+    text-align: center
+    top: 54px
+    font-weight: 900
+    color: #fff
+    +r(768px)
+      display: none
+  &__small-triangle
+    position: absolute
+    bottom: 7px
+    z-index: 2
+    left: 50%
+    margin-left: -107px
+    & img
+       width: 214px
+
+.map
+  width: 100%
+  height: 815px
+  +r(768px)
+    height: 439px
+/*place*/
+
+/*slider-menu*/
+.slider-menu
+  position: fixed
+  z-index: 10
+  padding: 14px 0
+  top: 0
+  left: 0
+  right: 0
+  height: 100px
+  background: #000
+  font-size: 0
+  & .container
+    height: 100%
+    padding-left: 31px
+    padding-right: 31px
+    +r(1024px)
+      max-width: 100%
+      width: 100%
+    &:before
+      content: ''
+      width: 0
+      height: 100%
+      display: inline-block
+      vertical-align: bottom
+  &__logo
+    display: inline-block
+    vertical-align: middle
+    margin-right: 7.797538%
+    width: 147px
+    height: 70px
+    +r(768px)
+      width: 40px
+      height: 67px
+      overflow: hidden
+      & img
+        max-width: 200px
+        width: 111px
+        height: 70px
+  &__descr
+    display: inline-block
+    vertical-align: middle
+    color: #fff
+    max-width: 220px
+    margin-right: 7.387141%
+    +r(768px)
+      display: none
+    & p
+      margin-bottom: 5px
+      font-size: 13px
+      font-weight: 400
+      line-height: 1.15
+    & a
+      font-size: 13px
+      font-weight: 700
+      line-height: 1.15
+  &__btn
+    display: inline-block
+    vertical-align: middle
+    max-width: 251px
+    &--md
+      +r(768px)
+        display: none
+    &--xs
+      display: none
+      +r(768px)
+        display: inline-block
+        max-width: 166px
+        & .btn
+          padding: 9px 13px
+/*slider-menu*/
+
+/*thanks*/
+.thanks,
+.modal-form
+  position: fixed
+  transform: translateY(-2000px)
+  padding-top: 83px
+  padding-bottom: 112px
+  z-index: 20
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0
+  background-image: url('../img/banner-bg.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  transition: transform .5s linear
+  +r(768px)
+    background-color: #000
+    background-image: none
+  &--show
+    display: block
+    transform: translateY(0)
+  &__i
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    max-width: 360px
+    +r(400px)
+      width: 100%
+  &__title
+    color: #fff
+    font-size: 34px
+    line-height: 1.21
+    margin-bottom: 34px
+  &__descr
+    margin-bottom: 88px
+    font-size: 24px
+    font-weight: 300
+    line-height: 1.33
+    color: #fff
+
+.modal-form
+  &__form
+    width: 100%
+    position: relative
+    padding: 41px 35px 35px 35px
+    background-color: #000
+    +r(400px)
+      padding-left: 35px
+      padding-right: 35px
+  &__close
+    position: absolute
+    top: 10px
+    right: 10px
+    width: 16px
+    height: 16px
+    cursor: pointer
+  &__btn
+    font-size: 10px
+/*thanks*/
+
+/*modal-form*/
+
+/*modal-form*/

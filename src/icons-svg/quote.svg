@@ -1,0 +1,8 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.34 147.69"><title>IC-</title>
+    <linearGradient id='quote-gradient' gradientUnits='userSpaceOnUse' x1='18.25%' y1='-9.71%' x2='81.75%' y2='109.71%'>
+        <stop stop-color='#6d6e70'/>
+        <stop offset='.54' stop-color='#e7e7e7'/>
+        <stop offset='.99' stop-color='#929397'/>
+        <stop offset='1' stop-color='#929397'/>
+    </linearGradient>
+    <path fill="url(#quote-gradient)" d="M70.12,77.62v68.26H1.86V86.5q0-30.25,4.72-46.9t20-27.33Q41.82,1.58,70.12.75V29.61q-33.3,5-33.3,41.35v6.66h33.3Zm95.36,0v68.26H97.22V86.5q0-30.25,4.59-46.9t20.06-27.33Q137.34,1.58,165.48.75V29.61q-33.3,5-33.3,41.35,0,2.22.28,6.66h33Z"/></svg>
