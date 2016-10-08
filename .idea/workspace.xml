@@ -28,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
@@ -58,18 +58,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="450" column="0" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="954" column="63" selection-start-line="954" selection-start-column="63" selection-end-line="954" selection-end-column="63" />
               <folding>
-                <element signature="e#3842#4144#0" expanded="false" />
-                <element signature="e#4184#4565#0" expanded="false" />
-                <element signature="e#4923#5673#0" expanded="false" />
-                <element signature="e#13096#13199#0" expanded="false" />
-                <element signature="e#18962#19610#0" expanded="false" />
-                <element signature="e#19621#20114#0" expanded="false" />
+                <element signature="e#3903#4205#0" expanded="false" />
+                <element signature="e#4245#4626#0" expanded="false" />
+                <element signature="e#4984#5734#0" expanded="false" />
+                <element signature="e#13157#13260#0" expanded="false" />
+                <element signature="e#19682#20175#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -80,16 +79,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
               <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/helpers/_mixins.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4096">
-              <caret line="128" column="19" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -125,8 +114,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/sass/helpers/_susy-config.scss" />
-        <option value="$PROJECT_DIR$/src/pages/index.sass" />
         <option value="$PROJECT_DIR$/src/pages/index.twig" />
+        <option value="$PROJECT_DIR$/src/pages/index.sass" />
       </list>
     </option>
   </component>
@@ -222,6 +211,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,12 +697,12 @@
       <updated>1475749557736</updated>
       <workItem from="1475749559125" duration="452000" />
       <workItem from="1475752398506" duration="80245000" />
-      <workItem from="1475913072491" duration="1767000" />
+      <workItem from="1475913072491" duration="2029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82464000" />
+    <option name="totallyTimeSpent" value="82726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -779,12 +786,11 @@
         <state relative-caret-position="2592">
           <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
           <folding>
-            <element signature="e#3842#4144#0" expanded="false" />
-            <element signature="e#4184#4565#0" expanded="false" />
-            <element signature="e#4923#5673#0" expanded="false" />
-            <element signature="e#13096#13199#0" expanded="false" />
-            <element signature="e#18962#19610#0" expanded="false" />
-            <element signature="e#19621#20114#0" expanded="false" />
+            <element signature="e#3903#4205#0" expanded="false" />
+            <element signature="e#4245#4626#0" expanded="false" />
+            <element signature="e#4984#5734#0" expanded="false" />
+            <element signature="e#13157#13260#0" expanded="false" />
+            <element signature="e#19682#20175#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,21 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="450" column="0" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
-          <folding>
-            <element signature="e#3842#4144#0" expanded="false" />
-            <element signature="e#4184#4565#0" expanded="false" />
-            <element signature="e#4923#5673#0" expanded="false" />
-            <element signature="e#13096#13199#0" expanded="false" />
-            <element signature="e#18962#19610#0" expanded="false" />
-            <element signature="e#19621#20114#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -995,6 +986,25 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/channel-russia--active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="954" column="63" selection-start-line="954" selection-start-column="63" selection-end-line="954" selection-end-column="63" />
+          <folding>
+            <element signature="e#3903#4205#0" expanded="false" />
+            <element signature="e#4245#4626#0" expanded="false" />
+            <element signature="e#4984#5734#0" expanded="false" />
+            <element signature="e#13157#13260#0" expanded="false" />
+            <element signature="e#19682#20175#0" expanded="false" />
           </folding>
         </state>
       </provider>
