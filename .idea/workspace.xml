@@ -95,11 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-765">
-              <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
+            <state relative-caret-position="242">
+              <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -129,16 +129,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="1251" column="9" selection-start-line="1251" selection-start-column="9" selection-end-line="1251" selection-end-column="9" />
               <folding>
-                <element signature="e#3993#4295#0" expanded="false" />
-                <element signature="e#4335#4716#0" expanded="false" />
-                <element signature="e#13318#13421#0" expanded="false" />
-                <element signature="e#20906#21207#0" expanded="false" />
+                <element signature="e#4012#4314#0" expanded="false" />
+                <element signature="e#4354#4735#0" expanded="false" />
+                <element signature="e#13337#13440#0" expanded="false" />
+                <element signature="e#20925#21226#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -185,8 +185,8 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/pages/thanks.twig" />
-        <option value="$PROJECT_DIR$/src/pages/index.sass" />
         <option value="$PROJECT_DIR$/src/pages/index.twig" />
+        <option value="$PROJECT_DIR$/src/pages/index.sass" />
       </list>
     </option>
   </component>
@@ -754,16 +754,16 @@
       <workItem from="1475749559125" duration="452000" />
       <workItem from="1475752398506" duration="80245000" />
       <workItem from="1475913072491" duration="6156000" />
-      <workItem from="1475931345036" duration="5962000" />
+      <workItem from="1475931345036" duration="6783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92815000" />
+    <option name="totallyTimeSpent" value="93636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -773,7 +773,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32734275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32734275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -845,10 +845,10 @@
         <state relative-caret-position="38592">
           <caret line="1267" column="21" selection-start-line="1267" selection-start-column="21" selection-end-line="1267" selection-end-column="21" />
           <folding>
-            <element signature="e#3993#4295#0" expanded="false" />
-            <element signature="e#4335#4716#0" expanded="false" />
-            <element signature="e#13318#13421#0" expanded="false" />
-            <element signature="e#20906#21207#0" expanded="false" />
+            <element signature="e#4012#4314#0" expanded="false" />
+            <element signature="e#4354#4735#0" expanded="false" />
+            <element signature="e#13337#13440#0" expanded="false" />
+            <element signature="e#20925#21226#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,10 +886,10 @@
         <state relative-caret-position="2592">
           <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
           <folding>
-            <element signature="e#3993#4295#0" expanded="false" />
-            <element signature="e#4335#4716#0" expanded="false" />
-            <element signature="e#13318#13421#0" expanded="false" />
-            <element signature="e#20906#21207#0" expanded="false" />
+            <element signature="e#4012#4314#0" expanded="false" />
+            <element signature="e#4354#4735#0" expanded="false" />
+            <element signature="e#13337#13440#0" expanded="false" />
+            <element signature="e#20925#21226#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1089,24 +1089,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
+    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding>
-            <element signature="e#3993#4295#0" expanded="false" />
-            <element signature="e#4335#4716#0" expanded="false" />
-            <element signature="e#13318#13421#0" expanded="false" />
-            <element signature="e#20906#21207#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
+    <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="1251" column="9" selection-start-line="1251" selection-start-column="9" selection-end-line="1251" selection-end-column="9" />
+          <folding>
+            <element signature="e#4012#4314#0" expanded="false" />
+            <element signature="e#4354#4735#0" expanded="false" />
+            <element signature="e#13337#13440#0" expanded="false" />
+            <element signature="e#20925#21226#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
