@@ -7,7 +7,74 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../greenpeace/src/icons-svg/svg-template.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-pdf/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-vagrant/awesome/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/RoundsBlack.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/RoundsBlack.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/RoundsBlack.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/RoundsBlack.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/RoundsBlack.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/calibri.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/calibri.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/calibri.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/calibri.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/calibri.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/parangon530c.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/parangon530c.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/parangon530c.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/parangon530c.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/parangon530c.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ropaSansPTT.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ropaSansPTT.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ropaSansPTT.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ropaSansPTT.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ropaSansPTT.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/--.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/banner-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-elle--active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-elle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-maxim--active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-maxim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-russ--active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-russia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-tnt--active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/channel-tnt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/feature-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/check-document.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/close-form.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/drinks.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/excuse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/foots.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/graphic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/group.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/kiss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/man-dreams.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/money.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/place-triangle--small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/place-triangle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/quote.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/shield.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/steps-list-phone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/strength.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/teach-group.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/teach-training.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/tshirt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/what-say.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/icons-svg/woman-mind.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/marker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/reports-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/slider-menu-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/statistics-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/statistics-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/teacher-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/write-us-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/thanks.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.sass" afterPath="$PROJECT_DIR$/src/pages/index.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.twig" afterPath="$PROJECT_DIR$/src/pages/index.twig" />
     </list>
     <ignored path="man-school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="647" column="13" selection-start-line="647" selection-start-column="13" selection-end-line="647" selection-end-column="13" />
+            <state relative-caret-position="-765">
+              <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -62,16 +129,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="1108" column="9" selection-start-line="1108" selection-start-column="9" selection-end-line="1108" selection-end-column="9" />
+            <state relative-caret-position="416">
+              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
-                <element signature="e#4016#4318#0" expanded="false" />
-                <element signature="e#4358#4739#0" expanded="false" />
-                <element signature="e#13341#13444#0" expanded="false" />
-                <element signature="e#20929#21230#0" expanded="false" />
+                <element signature="e#3993#4295#0" expanded="false" />
+                <element signature="e#4335#4716#0" expanded="false" />
+                <element signature="e#13318#13421#0" expanded="false" />
+                <element signature="e#20906#21207#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -80,7 +147,7 @@
       <file leaf-file-name="thanks.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/thanks.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
+            <state relative-caret-position="-64">
               <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
@@ -217,20 +284,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="man-school" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="man-school" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -701,12 +754,12 @@
       <workItem from="1475749559125" duration="452000" />
       <workItem from="1475752398506" duration="80245000" />
       <workItem from="1475913072491" duration="6156000" />
-      <workItem from="1475931345036" duration="5099000" />
+      <workItem from="1475931345036" duration="5962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91952000" />
+    <option name="totallyTimeSpent" value="92815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -792,10 +845,10 @@
         <state relative-caret-position="38592">
           <caret line="1267" column="21" selection-start-line="1267" selection-start-column="21" selection-end-line="1267" selection-end-column="21" />
           <folding>
-            <element signature="e#4016#4318#0" expanded="false" />
-            <element signature="e#4358#4739#0" expanded="false" />
-            <element signature="e#13341#13444#0" expanded="false" />
-            <element signature="e#20929#21230#0" expanded="false" />
+            <element signature="e#3993#4295#0" expanded="false" />
+            <element signature="e#4335#4716#0" expanded="false" />
+            <element signature="e#13318#13421#0" expanded="false" />
+            <element signature="e#20906#21207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,10 +886,10 @@
         <state relative-caret-position="2592">
           <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
           <folding>
-            <element signature="e#4016#4318#0" expanded="false" />
-            <element signature="e#4358#4739#0" expanded="false" />
-            <element signature="e#13341#13444#0" expanded="false" />
-            <element signature="e#20929#21230#0" expanded="false" />
+            <element signature="e#3993#4295#0" expanded="false" />
+            <element signature="e#4335#4716#0" expanded="false" />
+            <element signature="e#13318#13421#0" expanded="false" />
+            <element signature="e#20906#21207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1030,30 +1083,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/thanks.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
+        <state relative-caret-position="-64">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="647" column="13" selection-start-line="647" selection-start-column="13" selection-end-line="647" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="1108" column="9" selection-start-line="1108" selection-start-column="9" selection-end-line="1108" selection-end-column="9" />
+        <state relative-caret-position="416">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
-            <element signature="e#4016#4318#0" expanded="false" />
-            <element signature="e#4358#4739#0" expanded="false" />
-            <element signature="e#13341#13444#0" expanded="false" />
-            <element signature="e#20929#21230#0" expanded="false" />
+            <element signature="e#3993#4295#0" expanded="false" />
+            <element signature="e#4335#4716#0" expanded="false" />
+            <element signature="e#13318#13421#0" expanded="false" />
+            <element signature="e#20906#21207#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
