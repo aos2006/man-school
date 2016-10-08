@@ -250,6 +250,9 @@ svg
 .features-list
   &__row
     margin-bottom: 42px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
     +r(1024px)
       margin-bottom: 70px
     +r(768px)
@@ -262,7 +265,7 @@ svg
   &__item
     display: inline-block
     vertical-align: top
-    width: 25%
+    width: 120px
     +r(768px)
       text-align: center
       width: 50%
@@ -280,8 +283,6 @@ svg
     font-size: 14px
     line-height: 1.07
     color: #000
-    +r(1024px)
-      max-width: 97px
     +r(768px)
       max-width: 135px
       margin-left: auto
@@ -1259,20 +1260,10 @@ svg
   font-size: 0
   & .container
     height: 100%
-    +r(1024px)
-      max-width: 100%
-      width: 100%
-      padding-left: 31px
-      padding-right: 31px
-    &:before
-      content: ''
-      width: 0
-      height: 100%
-      display: inline-block
-      vertical-align: bottom
+    display: flex
+    align-items: center
   &__logo
     display: inline-block
-    vertical-align: middle
     margin-right: 7.797538%
     width: 147px
     height: 70px
@@ -1286,10 +1277,8 @@ svg
         height: 70px
   &__descr
     display: inline-block
-    vertical-align: middle
     color: #fff
     max-width: 220px
-    margin-right: 7.387141%
     +r(768px)
       display: none
     & p
@@ -1303,13 +1292,15 @@ svg
       line-height: 1.15
   &__btn
     display: inline-block
-    vertical-align: middle
+    margin-left: auto
     max-width: 251px
     &--md
       +r(768px)
         display: none
     &--xs
       display: none
+      margin-right: auto
+      margin-left: 0
       +r(768px)
         display: inline-block
         max-width: 166px
