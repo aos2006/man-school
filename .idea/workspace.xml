@@ -4,13 +4,29 @@
     <list default="true" id="56e96eee-2e78-4c77-9fb8-f0d5023bf781" name="Default" comment="после применения коммита делает  change path">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-pdf/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-vagrant/awesome/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/screen.css" afterPath="$PROJECT_DIR$/build/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/--.png" afterPath="$PROJECT_DIR$/build/img/--.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/banner-bg.jpg" afterPath="$PROJECT_DIR$/build/img/banner-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle--active.png" afterPath="$PROJECT_DIR$/build/img/channel-elle--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle.png" afterPath="$PROJECT_DIR$/build/img/channel-elle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-maxim--active.png" afterPath="$PROJECT_DIR$/build/img/channel-maxim--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-maxim.png" afterPath="$PROJECT_DIR$/build/img/channel-maxim.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow--active.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russ--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russ--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia.png" afterPath="$PROJECT_DIR$/build/img/channel-russia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt--active.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/favicon.png" afterPath="$PROJECT_DIR$/build/img/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/feature-bg.jpg" afterPath="$PROJECT_DIR$/build/img/feature-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/reports-bg.jpg" afterPath="$PROJECT_DIR$/build/img/reports-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/slider-menu-bg.png" afterPath="$PROJECT_DIR$/build/img/slider-menu-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.jpg" afterPath="$PROJECT_DIR$/build/img/statistics-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.png" afterPath="$PROJECT_DIR$/build/img/statistics-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/teacher-img.png" afterPath="$PROJECT_DIR$/build/img/teacher-img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/write-us-bg.jpg" afterPath="$PROJECT_DIR$/build/img/write-us-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="$PROJECT_DIR$/build/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpTasks/js-build.js" afterPath="$PROJECT_DIR$/gulpTasks/js-build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.sass" afterPath="$PROJECT_DIR$/src/pages/index.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.twig" afterPath="$PROJECT_DIR$/src/pages/index.twig" />
     </list>
     <ignored path="man-school.iws" />
@@ -32,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+            <state relative-caret-position="228">
+              <caret line="769" column="130" selection-start-line="769" selection-start-column="130" selection-end-line="769" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -72,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="985" column="12" selection-start-line="985" selection-start-column="12" selection-end-line="985" selection-end-column="12" />
+            <state relative-caret-position="260">
+              <caret line="991" column="13" selection-start-line="991" selection-start-column="13" selection-end-line="991" selection-end-column="13" />
               <folding>
                 <element signature="e#4012#4314#0" expanded="false" />
                 <element signature="e#4354#4735#0" expanded="false" />
@@ -117,9 +133,9 @@
         <option value="$PROJECT_DIR$/src/pages/thanks.twig" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/gulpTasks/js-build.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.twig" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/pages/index.sass" />
+        <option value="$PROJECT_DIR$/src/pages/index.twig" />
       </list>
     </option>
   </component>
@@ -688,12 +704,12 @@
       <workItem from="1476189484831" duration="543000" />
       <workItem from="1476194883460" duration="334000" />
       <workItem from="1476209932377" duration="727000" />
-      <workItem from="1476211694580" duration="1380000" />
+      <workItem from="1476211694580" duration="1608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97387000" />
+    <option name="totallyTimeSpent" value="97615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="796" extended-state="0" />
@@ -1062,24 +1078,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="985" column="12" selection-start-line="985" selection-start-column="12" selection-end-line="985" selection-end-column="12" />
+        <state relative-caret-position="260">
+          <caret line="991" column="13" selection-start-line="991" selection-start-column="13" selection-end-line="991" selection-end-column="13" />
           <folding>
             <element signature="e#4012#4314#0" expanded="false" />
             <element signature="e#4354#4735#0" expanded="false" />
             <element signature="e#13337#13440#0" expanded="false" />
             <element signature="e#20958#21259#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="769" column="130" selection-start-line="769" selection-start-column="130" selection-end-line="769" selection-end-column="130" />
+          <folding />
         </state>
       </provider>
     </entry>
