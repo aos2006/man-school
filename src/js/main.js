@@ -165,6 +165,10 @@ $(document).ready(function() {
   var modalForm = $('.js-modal-form');
   var btnShowModal = $('.js-show-modal');
 
+  $('.js-lazy').lazyload({
+    threshold : 500
+  });
+
   window.onscroll = function() {
     var sliderMenu = $('.js-slider-menu');
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
