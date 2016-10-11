@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e96eee-2e78-4c77-9fb8-f0d5023bf781" name="Default" comment="после применения коммита делает  change path">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-pdf/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-vagrant/awesome/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/--.png" afterPath="$PROJECT_DIR$/build/img/--.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/banner-bg.jpg" afterPath="$PROJECT_DIR$/build/img/banner-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle--active.png" afterPath="$PROJECT_DIR$/build/img/channel-elle--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle.png" afterPath="$PROJECT_DIR$/build/img/channel-elle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-maxim--active.png" afterPath="$PROJECT_DIR$/build/img/channel-maxim--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-maxim.png" afterPath="$PROJECT_DIR$/build/img/channel-maxim.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russ--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russ--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia.png" afterPath="$PROJECT_DIR$/build/img/channel-russia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt--active.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/favicon.png" afterPath="$PROJECT_DIR$/build/img/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/feature-bg.jpg" afterPath="$PROJECT_DIR$/build/img/feature-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/reports-bg.jpg" afterPath="$PROJECT_DIR$/build/img/reports-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/slider-menu-bg.png" afterPath="$PROJECT_DIR$/build/img/slider-menu-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.jpg" afterPath="$PROJECT_DIR$/build/img/statistics-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.png" afterPath="$PROJECT_DIR$/build/img/statistics-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/teacher-img.png" afterPath="$PROJECT_DIR$/build/img/teacher-img.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/write-us-bg.jpg" afterPath="$PROJECT_DIR$/build/img/write-us-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpTasks/js-build.js" afterPath="$PROJECT_DIR$/gulpTasks/js-build.js" />
     </list>
     <ignored path="man-school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,26 +36,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="396">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js-build.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpTasks/js-build.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
+        <entry file="file://$PROJECT_DIR$/build/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3806">
-              <caret line="173" column="50" selection-start-line="173" selection-start-column="50" selection-end-line="173" selection-end-column="50" />
-              <folding>
-                <element signature="e#4005#4062#0" expanded="false" />
-                <element signature="e#4705#4919#0" expanded="false" />
-                <element signature="e#4980#5171#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-28728">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,16 +81,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thanks.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/thanks.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -121,7 +95,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/sass/base/_base.sass" />
-        <option value="$PROJECT_DIR$/gulpTasks/js-build.js" />
         <option value="$PROJECT_DIR$/src/icons-svg/logo.svg" />
         <option value="$PROJECT_DIR$/src/sass/screen.sass" />
         <option value="$PROJECT_DIR$/src/icons-svg/money.svg" />
@@ -140,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/pages/index.sass" />
         <option value="$PROJECT_DIR$/src/pages/index.twig" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulpTasks/js-build.js" />
       </list>
     </option>
   </component>
@@ -220,7 +194,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gulpTasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -692,16 +698,16 @@
       <workItem from="1475931345036" duration="7550000" />
       <workItem from="1476189484831" duration="543000" />
       <workItem from="1476194883460" duration="334000" />
-      <workItem from="1476209932377" duration="628000" />
+      <workItem from="1476209932377" duration="727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95908000" />
+    <option name="totallyTimeSpent" value="96007000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="796" extended-state="1" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="796" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -887,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27040">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/base/_base.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -904,13 +903,6 @@
     <entry file="file://$PROJECT_DIR$/build/img/statistics-bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpTasks/js-build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icons-svg/logo.svg">
@@ -1067,10 +1059,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28728">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="396">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpTasks/js-build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>
