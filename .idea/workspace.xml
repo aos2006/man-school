@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e96eee-2e78-4c77-9fb8-f0d5023bf781" name="Default" comment="после применения коммита делает  change path">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-pdf/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-vagrant/awesome/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/--.png" afterPath="$PROJECT_DIR$/build/img/--.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/banner-bg.jpg" afterPath="$PROJECT_DIR$/build/img/banner-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle--active.png" afterPath="$PROJECT_DIR$/build/img/channel-elle--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle.png" afterPath="$PROJECT_DIR$/build/img/channel-elle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-maxim--active.png" afterPath="$PROJECT_DIR$/build/img/channel-maxim--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-maxim.png" afterPath="$PROJECT_DIR$/build/img/channel-maxim.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow--active.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russ--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russ--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia.png" afterPath="$PROJECT_DIR$/build/img/channel-russia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt--active.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/favicon.png" afterPath="$PROJECT_DIR$/build/img/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/feature-bg.jpg" afterPath="$PROJECT_DIR$/build/img/feature-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/reports-bg.jpg" afterPath="$PROJECT_DIR$/build/img/reports-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/slider-menu-bg.png" afterPath="$PROJECT_DIR$/build/img/slider-menu-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.jpg" afterPath="$PROJECT_DIR$/build/img/statistics-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.png" afterPath="$PROJECT_DIR$/build/img/statistics-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/teacher-img.png" afterPath="$PROJECT_DIR$/build/img/teacher-img.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/write-us-bg.jpg" afterPath="$PROJECT_DIR$/build/img/write-us-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.twig" afterPath="$PROJECT_DIR$/src/pages/index.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/channel-moscow--active.png" afterPath="$PROJECT_DIR$/src/img/channel-moscow--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="man-school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +30,8 @@
       <file leaf-file-name="index.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="769" column="130" selection-start-line="769" selection-start-column="130" selection-end-line="769" selection-end-column="130" />
+            <state relative-caret-position="344">
+              <caret line="749" column="0" selection-start-line="749" selection-start-column="0" selection-end-line="749" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,19 +50,9 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="44">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <marker date="1476212564000" expanded="true" signature="1135:86947" ph="{...}" />
-                <marker date="1476212564000" expanded="true" signature="16790:35343" ph="{...}" />
-                <marker date="1476212564000" expanded="true" signature="28216:33066" ph="{&quot;createPseudo&quot;: i...}" />
-                <marker date="1476212564000" expanded="true" signature="31003:33065" ph="{...}" />
-                <marker date="1476212564000" expanded="true" signature="31995:32021" ph="{...}" />
-                <marker date="1476212564000" expanded="true" signature="63220:64381" ph="{...}" />
-                <marker date="1476212564000" expanded="true" signature="64018:64380" ph="{...}" />
-                <marker date="1476212564000" expanded="true" signature="95768:96881" ph="{...}" />
-                <marker date="1476212564000" expanded="true" signature="96025:96880" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +60,7 @@
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="20900">
               <caret line="991" column="13" selection-start-line="991" selection-start-column="13" selection-end-line="991" selection-end-column="13" />
               <folding>
                 <element signature="e#4012#4314#0" expanded="false" />
@@ -157,8 +126,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="796" />
+    <option name="width" value="2560" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -185,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -228,6 +198,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gulpTasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -235,7 +223,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,6 +233,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="prop_add_unversioned_files" value="true" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -704,15 +692,16 @@
       <workItem from="1476189484831" duration="543000" />
       <workItem from="1476194883460" duration="334000" />
       <workItem from="1476209932377" duration="727000" />
-      <workItem from="1476211694580" duration="1608000" />
+      <workItem from="1476211694580" duration="2679000" />
+      <workItem from="1476285362704" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97615000" />
+    <option name="totallyTimeSpent" value="98741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="796" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1080" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,8 +711,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32536522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32483476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -733,12 +721,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -766,11 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3806">
           <caret line="173" column="50" selection-start-line="173" selection-start-column="50" selection-end-line="173" selection-end-column="50" />
-          <folding>
-            <element signature="e#4059#4116#0" expanded="false" />
-            <element signature="e#4759#4973#0" expanded="false" />
-            <element signature="e#5034#5225#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5088">
           <caret line="159" column="31" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,11 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#4059#4116#0" expanded="false" />
-            <element signature="e#4759#4973#0" expanded="false" />
-            <element signature="e#5034#5225#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,11 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6496">
           <caret line="203" column="37" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
-          <folding>
-            <element signature="e#4059#4116#0" expanded="false" />
-            <element signature="e#4759#4973#0" expanded="false" />
-            <element signature="e#5034#5225#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,19 +1012,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="44">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1476212564000" expanded="true" signature="1135:86947" ph="{...}" />
-            <marker date="1476212564000" expanded="true" signature="16790:35343" ph="{...}" />
-            <marker date="1476212564000" expanded="true" signature="28216:33066" ph="{&quot;createPseudo&quot;: i...}" />
-            <marker date="1476212564000" expanded="true" signature="31003:33065" ph="{...}" />
-            <marker date="1476212564000" expanded="true" signature="31995:32021" ph="{...}" />
-            <marker date="1476212564000" expanded="true" signature="63220:64381" ph="{...}" />
-            <marker date="1476212564000" expanded="true" signature="64018:64380" ph="{...}" />
-            <marker date="1476212564000" expanded="true" signature="95768:96881" ph="{...}" />
-            <marker date="1476212564000" expanded="true" signature="96025:96880" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,17 +1029,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding>
-            <element signature="e#4059#4116#0" expanded="false" />
-            <element signature="e#4759#4973#0" expanded="false" />
-            <element signature="e#5034#5225#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="20900">
           <caret line="991" column="13" selection-start-line="991" selection-start-column="13" selection-end-line="991" selection-end-column="13" />
           <folding>
             <element signature="e#4012#4314#0" expanded="false" />
@@ -1093,8 +1047,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="769" column="130" selection-start-line="769" selection-start-column="130" selection-end-line="769" selection-end-column="130" />
+        <state relative-caret-position="344">
+          <caret line="749" column="0" selection-start-line="749" selection-start-column="0" selection-end-line="749" selection-end-column="0" />
           <folding />
         </state>
       </provider>
