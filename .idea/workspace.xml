@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e96eee-2e78-4c77-9fb8-f0d5023bf781" name="Default" comment="после применения коммита делает  change path">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-pdf/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-vagrant/awesome/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/channel-moscow--active.png" afterPath="$PROJECT_DIR$/src/img/channel-moscow--active.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/--.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/channel-maxim--active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/channel-maxim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sass/helpers/_png-sprite.sass" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/channel-mascow.png" afterPath="$PROJECT_DIR$/src/img/channel-moscow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/banner-bg.jpg" afterPath="$PROJECT_DIR$/build/img/banner-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle--active.png" afterPath="$PROJECT_DIR$/build/img/channel-elle--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle.png" afterPath="$PROJECT_DIR$/build/img/channel-elle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow--active.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russ--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russ--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia.png" afterPath="$PROJECT_DIR$/build/img/channel-russia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia24.png" afterPath="$PROJECT_DIR$/build/img/channel-russia24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt--active.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt--active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/favicon.png" afterPath="$PROJECT_DIR$/build/img/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/feature-bg.jpg" afterPath="$PROJECT_DIR$/build/img/feature-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/reports-bg.jpg" afterPath="$PROJECT_DIR$/build/img/reports-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/slider-menu-bg.png" afterPath="$PROJECT_DIR$/build/img/slider-menu-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.jpg" afterPath="$PROJECT_DIR$/build/img/statistics-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.png" afterPath="$PROJECT_DIR$/build/img/statistics-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/teacher-img.png" afterPath="$PROJECT_DIR$/build/img/teacher-img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/write-us-bg.jpg" afterPath="$PROJECT_DIR$/build/img/write-us-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="man-school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +50,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
@@ -37,37 +60,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js-build.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpTasks/js-build.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20900">
-              <caret line="991" column="13" selection-start-line="991" selection-start-column="13" selection-end-line="991" selection-end-column="13" />
+            <state relative-caret-position="489">
+              <caret line="978" column="56" selection-start-line="978" selection-start-column="56" selection-end-line="978" selection-end-column="56" />
               <folding>
                 <element signature="e#4012#4314#0" expanded="false" />
                 <element signature="e#4354#4735#0" expanded="false" />
                 <element signature="e#13337#13440#0" expanded="false" />
                 <element signature="e#20958#21259#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sass/screen.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +100,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/sass/base/_base.sass" />
         <option value="$PROJECT_DIR$/src/icons-svg/logo.svg" />
-        <option value="$PROJECT_DIR$/src/sass/screen.sass" />
         <option value="$PROJECT_DIR$/src/icons-svg/money.svg" />
         <option value="$PROJECT_DIR$/src/icons-svg/man-mind.svg" />
         <option value="$PROJECT_DIR$/src/icons-svg/template/svg-template.twig" />
@@ -100,11 +112,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/sass/helpers/_susy-config.scss" />
         <option value="$PROJECT_DIR$/src/pages/thanks.twig" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/gulpTasks/js-build.js" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.sass" />
         <option value="$PROJECT_DIR$/src/pages/index.twig" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.sass" />
+        <option value="$PROJECT_DIR$/src/sass/screen.sass" />
       </list>
     </option>
   </component>
@@ -187,6 +200,46 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -217,6 +270,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gulpTasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man-school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -693,12 +760,12 @@
       <workItem from="1476194883460" duration="334000" />
       <workItem from="1476209932377" duration="727000" />
       <workItem from="1476211694580" duration="2679000" />
-      <workItem from="1476285362704" duration="55000" />
+      <workItem from="1476285362704" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98741000" />
+    <option name="totallyTimeSpent" value="99527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1080" extended-state="6" />
@@ -751,75 +818,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3806">
-          <caret line="173" column="50" selection-start-line="173" selection-start-column="50" selection-end-line="173" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#4012#4314#0" expanded="false" />
-            <element signature="e#4354#4735#0" expanded="false" />
-            <element signature="e#13337#13440#0" expanded="false" />
-            <element signature="e#20958#21259#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/thanks.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5088">
-          <caret line="159" column="31" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38592">
-          <caret line="1267" column="21" selection-start-line="1267" selection-start-column="21" selection-end-line="1267" selection-end-column="21" />
-          <folding>
-            <element signature="e#4012#4314#0" expanded="false" />
-            <element signature="e#4354#4735#0" expanded="false" />
-            <element signature="e#13337#13440#0" expanded="false" />
-            <element signature="e#20958#21259#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/helpers/_susy-config.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19072">
@@ -885,13 +883,6 @@
     <entry file="file://$PROJECT_DIR$/src/icons-svg/template/_svg-sprite-template.scss" />
     <entry file="file://$PROJECT_DIR$/src/icons-svg/template/svg-symbols-demo-page.html" />
     <entry file="file://$PROJECT_DIR$/src/icons-svg/template/svg-symbols.svg" />
-    <entry file="file://$PROJECT_DIR$/src/sass/screen.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/icons-svg/woman-wisdom.svg" />
     <entry file="file://$PROJECT_DIR$/src/icons-svg/drinking.svg" />
     <entry file="file://$PROJECT_DIR$/src/icons-svg/tshirt.svg">
@@ -995,13 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpTasks/js-build.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1032,10 +1016,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/channel-moscow--active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/channel-moscow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/--.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/img/sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/channel-moscow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/helpers/_png-sprite.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1562">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="749" column="0" selection-start-line="749" selection-start-column="0" selection-end-line="749" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/helpers/png-sprite.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4246">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/channel-russia.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20900">
-          <caret line="991" column="13" selection-start-line="991" selection-start-column="13" selection-end-line="991" selection-end-column="13" />
+        <state relative-caret-position="489">
+          <caret line="978" column="56" selection-start-line="978" selection-start-column="56" selection-end-line="978" selection-end-column="56" />
           <folding>
             <element signature="e#4012#4314#0" expanded="false" />
             <element signature="e#4354#4735#0" expanded="false" />
@@ -1045,10 +1091,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
+    <entry file="file://$PROJECT_DIR$/src/sass/screen.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="749" column="0" selection-start-line="749" selection-start-column="0" selection-end-line="749" selection-end-column="0" />
+        <state relative-caret-position="396">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
