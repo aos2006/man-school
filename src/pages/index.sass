@@ -12,6 +12,18 @@ svg
   height: 100%
   +r(768px)
     height: auto
+
+
+path,rect,polygon, circle
+  clip-path: none
+circle
+  stroke: url(#linear-gradient)
+g
+
+#icon-man-mind
+  .body
+    fill: red
+
 /*global styles*/
 .btn
   display: inline-block
@@ -943,8 +955,9 @@ svg
   &__channels-list
     margin-bottom: 18px
     font-size: 0
+    display: table-row
   &__chanel
-    display: inline-block
+    display: table-cell
     vertical-align: middle
     min-width: 40px
     padding: 0 10px
@@ -960,33 +973,28 @@ svg
       width: 50%
     &--active
       & .reports__icon--russia
-        background-image: url('../img/channel-russ--active.png')
+        +sprite($channel-russ-active)
       & .reports__icon--tnt
-        background-image: url('../img/channel-tnt--active.png')
+        +sprite($channel-tnt-active)
       & .reports__icon--elle
-        background-image: url('../img/channel-elle--active.png')
+       +sprite($channel-elle-active)
       & .reports__icon--maxim
-        background-image: url('../img/channel-moscow--active.png')
+        +sprite($channel-moscow-active)
   &__icon
-    display: block
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: 0 50%
-    height: 100%
+    display: inline-block
+    vertical-align: middle
+    line-height: 44px
     cursor: pointer
     &--russia
-      width: 98px
-      background-image: url('../img/channel-russia.png')
+      //width: 98px
+      +sprite($channel-russia)
     &--tnt
-      width: 67px
-      background-image: url('../img/channel-tnt.png')
+      +sprite($channel-tnt)
     &--elle
-      width: 56px
-      background-image: url('../img/channel-elle.png')
+     +sprite($channel-elle)
     &--maxim
-      width: 100px
-      background-image: url('../img/channel-moscow.png')
-      background-size: contain
+      +sprite($channel-moscow)
+      //background-size: contain
   &__arrow
     top: calc(50% + 31px)
     +r(768px)

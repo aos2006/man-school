@@ -14,9 +14,9 @@
 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-{#<div class="svg-sprites">#}
-  {#{% include '../icons-svg/template/svg-template.twig' %}#}
-{#</div>#}
+<div class="svg-sprites">
+  {% include '../icons-svg/template/svg-template.twig' %}
+</div>
 <div class="out">
   <div class="slider-menu js-slider-menu">
     <div class="container">
@@ -213,7 +213,11 @@
           </div>
           <div class="features-list__item">
             <i class="features-list__icon">
-              <img data-original="img/icons-svg/man-dreams.svg" class="js-lazy">
+              <svg class="icon-man-mind">
+                <use xlink:href="#icon-man-mind" />
+              </svg>
+              <span>lalala</span>
+              {#<img data-original="img/icons-svg/man-dreams.svg" class="js-lazy">#}
             </i>
             <p class="features-list__descr">
               <b>
