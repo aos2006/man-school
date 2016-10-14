@@ -4,29 +4,8 @@
     <list default="true" id="56e96eee-2e78-4c77-9fb8-f0d5023bf781" name="Default" comment="после применения коммита делает  change path">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-pdf/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test-vagrant/awesome/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/banner-bg.jpg" afterPath="$PROJECT_DIR$/build/img/banner-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle--active.png" afterPath="$PROJECT_DIR$/build/img/channel-elle--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-elle.png" afterPath="$PROJECT_DIR$/build/img/channel-elle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow--active.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-moscow.png" afterPath="$PROJECT_DIR$/build/img/channel-moscow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russ--active.png" afterPath="$PROJECT_DIR$/build/img/channel-russ--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-russia.png" afterPath="$PROJECT_DIR$/build/img/channel-russia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt--active.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt--active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/channel-tnt.png" afterPath="$PROJECT_DIR$/build/img/channel-tnt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/favicon.png" afterPath="$PROJECT_DIR$/build/img/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/feature-bg.jpg" afterPath="$PROJECT_DIR$/build/img/feature-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/reports-bg.jpg" afterPath="$PROJECT_DIR$/build/img/reports-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/slider-menu-bg.png" afterPath="$PROJECT_DIR$/build/img/slider-menu-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.jpg" afterPath="$PROJECT_DIR$/build/img/statistics-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/statistics-bg.png" afterPath="$PROJECT_DIR$/build/img/statistics-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/teacher-img.png" afterPath="$PROJECT_DIR$/build/img/teacher-img.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/write-us-bg.jpg" afterPath="$PROJECT_DIR$/build/img/write-us-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/screen.css" afterPath="$PROJECT_DIR$/build/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="$PROJECT_DIR$/build/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/thanks.html" afterPath="$PROJECT_DIR$/build/thanks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.sass" afterPath="$PROJECT_DIR$/src/pages/index.sass" />
     </list>
     <ignored path="man-school.iws" />
@@ -73,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="188" column="14" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+            <state relative-caret-position="122">
+              <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
               <folding>
                 <element signature="e#5045#5347#0" expanded="false" />
                 <element signature="e#5387#5768#0" expanded="false" />
@@ -88,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -130,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/sass/screen.sass" />
         <option value="$PROJECT_DIR$/src/pages/index.twig" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.sass" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.sass" />
       </list>
     </option>
   </component>
@@ -707,12 +686,12 @@
       <workItem from="1476211694580" duration="2679000" />
       <workItem from="1476285362704" duration="1345000" />
       <workItem from="1476345315151" duration="17000" />
-      <workItem from="1476442527779" duration="14110000" />
+      <workItem from="1476442527779" duration="14283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114158000" />
+    <option name="totallyTimeSpent" value="114331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -1057,24 +1036,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="188" column="14" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+        <state relative-caret-position="122">
+          <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
           <folding>
             <element signature="e#5045#5347#0" expanded="false" />
             <element signature="e#5387#5768#0" expanded="false" />
             <element signature="e#14409#14512#0" expanded="false" />
             <element signature="e#22040#22341#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
