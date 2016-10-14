@@ -21,6 +21,7 @@
     "gulp-csso": "^2.0.0",
     "gulp-debug": "^2.1.2",
     "gulp-eslint": "^2.0.0",
+    "gulp-html-minifier2": "^1.1.8",
     "gulp-if": "^2.0.1",
     "gulp-imacss": "^1.0.0",
     "gulp-imagemin": "^3.0.3",
