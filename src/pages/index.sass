@@ -13,16 +13,54 @@ svg
   +r(768px)
     height: auto
 
-
-path,rect,polygon, circle
-  clip-path: none
-circle
-  stroke: url(#linear-gradient)
-g
-
-#icon-man-mind
-  .body
-    fill: red
+/*icons*/
+.imacss
+  background-repeat: no-repeat
+  background-position: 50% 50%
+  background-size: contain
+  width: 100%
+.imacss-check-document
+  height: 82px
+  +r(768px)
+    background-position: 0px -17px
+    background-size: 53px 82px
+.imacss-teach-group
+  height: 83px
+  +r(768px)
+    background-position: 0px -17px
+.imacss-group
+  height: 130px
+  +r(768px)
+    background-position: 100% -16px
+    background-size: 53px 125px
+.imacss-teach-training
+  height: 82px
+  +r(768px)
+    background-position: 100% -16px
+    background-size: 53px 82px
+.imacss-foots
+  height: 133px
+  +r(768px)
+    background-position: 0 -68px
+    background-size: 53px 133px
+.imacss-strength
+  height: 95px
+  +r(768px)
+    background-position: 100% -15px
+    background-size: 53px 95px
+.imacss-shield
+  height: 121px
+  +r(768px)
+    background-position: 0 -56px
+    background-size: 53px 121px
+.imacss-graphic
+  height: 417px
+.imacss-place-triangle-small
+  height: 41px
+  width: 230px
+.imacss-quote
+  height: 100%
+/*icons*/
 
 /*global styles*/
 .btn
@@ -151,7 +189,10 @@ g
   font-size: 0
   height: 100%
   min-height: 100%
+  & .container
+    height: 100%
   +r(1024px)
+    height: auto
     padding-bottom: 100px
   &__left-column
     display: inline-block
@@ -179,6 +220,8 @@ g
       width: 100%
   &__logo
     margin-bottom: 70px
+    height: 70px
+    background-position: 0 0
   &__title
     color: #fff
     margin-bottom: 20px
@@ -512,8 +555,9 @@ g
       border-bottom: 13px solid transparent
   &__img
     +r(768px)
-      height: 60px
+      height: 50px
       overflow: hidden
+
   &__icon
     position: absolute
     width: 100%
@@ -536,8 +580,8 @@ g
         content: ''
         position: absolute
         height: 1px
-        width: calc(100% - 60.5px)
-        right: 0
+        width: calc(100% - 55px)
+        right: 5px
         background: #c1c2c3
       & .steps-list__img
         text-align: left
@@ -559,7 +603,8 @@ g
         & .steps-list__img
           text-align: right
         &:before
-          left: 0
+          left: -5px
+          width: calc(100% - 45px)
         & .steps-list__descr
           text-align: right
           width: 100px
@@ -810,15 +855,26 @@ g
 
 /*teacher-info*/
 .teacher-info
+  position: relative
   background-color: #fff
   padding-top: 50px
   padding-bottom: 50px
-  background-image: url('../img/teacher-img.png')
-  background-size: 314px 517px
-  background-repeat: no-repeat
-  background-position: 90% 100%
+  //background-image: url('../img/teacher-img.png')
+  //background-size: 314px 517px
+  //background-repeat: no-repeat
+  //background-position: 90% 100%
+  &__bg
+    position: absolute
+    bottom: 0
+    right: 10%
+    +sprite($teacher-img)
+    +r(768px)
+      bottom: 0
+      left: 50%
+      background-position: 0 -568px
+      height: 402px
+      transform: translateX(-50%)
   +r(1024px)
-    background-position: 100% 100%
     padding-bottom: 32px
   +r(768px)
     padding-bottom: 450px
@@ -956,6 +1012,8 @@ g
     margin-bottom: 18px
     font-size: 0
     display: table-row
+    +r(768px)
+      display: block
   &__chanel
     display: table-cell
     vertical-align: middle
@@ -969,6 +1027,8 @@ g
       padding-right: 0
       border-right: none
     +r(768px)
+      display: inline-block
+      vertical-align: bottom
       border-right: none
       width: 50%
     &--active
@@ -1231,10 +1291,10 @@ g
       display: none
   &__small-triangle
     position: absolute
-    bottom: 7px
+    bottom: 10px
     z-index: 2
     left: 50%
-    margin-left: -107px
+    margin-left: -115px
     & img
        width: 214px
 
@@ -1272,10 +1332,14 @@ g
     margin-left: -9px
     width: 147px
     height: 70px
+    min-width: 147px
     +r(768px)
-      width: 40px
+      min-width: 40px
+      width: 42px
       height: 67px
       overflow: hidden
+      background-size: 135px 70px
+      background-position: -8px 0
       & img
         max-width: 200px
         width: 111px
@@ -1357,7 +1421,22 @@ g
 
 .thanks
   transform: none
-
+  position: relative
+  padding: 76px 0
+  background-size: cover
+  background-repeat: no-repeat
+  background-image: url(../img/banner-bg.jpg)
+  +r(768px)
+    background-position: 50% 50%
+    background-color: transparent
+  &__i
+    position: relative
+    transform: none
+    left: 0
+    top: 0
+    padding: 15px 15px
+    margin-left: auto
+    margin-right: auto
 .modal-form
   &__form
     width: 100%

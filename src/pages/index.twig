@@ -8,21 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&subset=cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/images.svg.css">
   <link rel="stylesheet" href="css/screen.css">
 </head>
 <body>
 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<div class="svg-sprites">
-  {% include '../icons-svg/template/svg-template.twig' %}
-</div>
 <div class="out">
   <div class="slider-menu js-slider-menu">
     <div class="container">
-      <div class="slider-menu__logo">
-        <img src="img/icons-svg/logo.svg" alt="">
-      </div>
+      <div class="slider-menu__logo imacss imacss-logo"></div>
       <div class="slider-menu__descr">
         <p>
           Позвоните и получите бесплатную<br> 
@@ -61,9 +57,7 @@
   <div class="banner">
     <div class="container">
       <div class="banner__left-column">
-        <h1 class="banner__logo">
-          <img src="img/icons-svg/logo.svg" alt="Man school">
-        </h1>
+        <h1 class="banner__logo imacss imacss-logo"></h1>
         <h3 class="banner__title">
           <span class="text--gradient">Бесплатный</span><br>
           мастер-класс
@@ -108,8 +102,7 @@
       <div class="features-list">
         <div class="features-list__row">
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <img data-original="img/icons-svg/what-say.svg" class="js-lazy">
+            <i class="features-list__icon imacss imacss-what-say">
             </i>
             <p class="features-list__descr">
               <b>
@@ -123,8 +116,7 @@
             </p>
           </div>
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <img data-original="img/icons-svg/woman-mind.svg" class="js-lazy">
+            <i class="features-list__icon imacss imacss-woman-mind">
             </i>
             <p class="features-list__descr">
               <b>
@@ -138,8 +130,7 @@
             </p>
           </div>
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <img data-original="img/icons-svg/drinks.svg" class="js-lazy">
+            <i class="features-list__icon imacss imacss-drinks">
             </i>
             <p class="features-list__descr">
               <b>
@@ -153,8 +144,7 @@
             </p>
           </div>
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <img data-original="img/icons-svg/tshirt.svg" class="js-lazy">
+            <i class="features-list__icon imacss imacss-tshirt">
             </i>
             <p class="features-list__descr">
               <b>
@@ -170,8 +160,7 @@
         </div>
         <div class="features-list__row">
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <img data-original="img/icons-svg/excuse.svg" class="js-lazy">
+            <i class="features-list__icon imacss imacss-excuse">
             </i>
             <p class="features-list__descr">
               <b>
@@ -186,8 +175,7 @@
             </p>
           </div>
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <img data-original="img/icons-svg/kiss.svg" class="js-lazy">
+            <i class="features-list__icon imacss imacss-kiss">
             </i>
             <p class="features-list__descr">
               <b>
@@ -200,8 +188,7 @@
             </p>
           </div>
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <img data-original="img/icons-svg/money.svg" class="js-lazy">
+            <i class="features-list__icon imacss imacss-money">
             </i>
             <p class="features-list__descr">
               <b>
@@ -212,12 +199,7 @@
             </p>
           </div>
           <div class="features-list__item">
-            <i class="features-list__icon">
-              <svg class="icon-man-mind">
-                <use xlink:href="#icon-man-mind" />
-              </svg>
-              <span>lalala</span>
-              {#<img data-original="img/icons-svg/man-dreams.svg" class="js-lazy">#}
+            <i class="features-list__icon imacss imacss-man-dreams">
             </i>
             <p class="features-list__descr">
               <b>
@@ -315,7 +297,7 @@
           <span class="steps-list__step">1</span>
           <div class="steps-list__icon">
             <div class="steps-list__img">
-              <img data-original="img/icons-svg/teach-group.svg" class="js-lazy">
+              <div class="imacss imacss-teach-group"></div>
             </div>
               <p class="steps-list__descr">
                 <b>МАСТЕРКЛАСС:</b><br>
@@ -332,7 +314,7 @@
           <span class="steps-list__step">2</span>
           <div class="steps-list__icon steps-list__icon--bottom">
             <div class="steps-list__img">
-              <img data-original="img/icons-svg/group.svg" class="js-lazy"></div>
+              <div class="imacss imacss-group"></div>
             <p class="steps-list__descr">
                 <b>ЛИЧНАЯ ВСТРЕЧА:</b><br>
                 постановка задачи<br>
@@ -345,7 +327,7 @@
           <span class="steps-list__step">3</span>
           <div class="steps-list__icon">
             <div class="steps-list__img">
-              <img data-original="img/icons-svg/check-document.svg" class="js-lazy">
+              <div class="imacss imacss-check-document"></div>
             </div>
             <p class="steps-list__descr">
                 <b>ПОДГОТОВКА:</b><br>
@@ -362,7 +344,7 @@
           <span class="steps-list__step">4</span>
           <div class="steps-list__icon steps-list__icon--bottom">
             <div class="steps-list__img">
-              <img data-original="img/icons-svg/teach-training.svg" class="js-lazy">
+             <div class="imacss imacss-teach-training"></div>
             </div>
             <p class="steps-list__descr">
                 <b>ТРЕНИНГ<br>
@@ -379,7 +361,7 @@
           <span class="steps-list__step">5</span>
           <div class="steps-list__icon">
             <div class="steps-list__img">
-              <img data-original="img/icons-svg/foots.svg" class="js-lazy">
+             <div class="imacss imacss-foots"></div>
             </div>
             <p class="steps-list__descr">
                 <b>ТРЕНИНГ<br>
@@ -392,7 +374,7 @@
           <span class="steps-list__step">6</span>
           <div class="steps-list__icon steps-list__icon--bottom">
             <div class="steps-list__img">
-              <img data-original="img/icons-svg/strength.svg" class="js-lazy">
+             <div class="imacss imacss-strength"></div>
             </div>
             <p class="steps-list__descr">
                 <b>ПОСЛЕ<br>
@@ -408,7 +390,7 @@
           <span class="steps-list__step">7</span>
           <div class="steps-list__icon">
             <div class="steps-list__img">
-              <img data-original="img/icons-svg/shield.svg" class="js-lazy">
+              <div class="imacss imacss-shield"></div>
             </div>
             <p class="steps-list__descr">
                 <b>ПОСЛЕ<br>
@@ -532,6 +514,7 @@
     </div>
   </section>
   <section class="teacher-info">
+    <div class="teacher-info__bg"></div>
     <div class="container">
       <div class="teacher-info__i">
         <h2 class="teacher-info__title title">
@@ -542,7 +525,14 @@
         </h2>
         <div class="teacher-info__quote">
         <span class="quote">
-             <img src="img/icons-svg/quote.svg">
+         <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.34 147.69"><title>IC-</title>
+    <linearGradient id='quote-gradient' gradientUnits='userSpaceOnUse' x1='18.25%' y1='-9.71%' x2='81.75%' y2='109.71%'>
+        <stop stop-color='#6d6e70'/>
+        <stop offset='.54' stop-color='#e7e7e7'/>
+        <stop offset='.99' stop-color='#929397'/>
+        <stop offset='1' stop-color='#929397'/>
+    </linearGradient>
+    <path fill="url(#quote-gradient)" d="M70.12,77.62v68.26H1.86V86.5q0-30.25,4.72-46.9t20-27.33Q41.82,1.58,70.12.75V29.61q-33.3,5-33.3,41.35v6.66h33.3Zm95.36,0v68.26H97.22V86.5q0-30.25,4.59-46.9t20.06-27.33Q137.34,1.58,165.48.75V29.61q-33.3,5-33.3,41.35,0,2.22.28,6.66h33Z"/></svg>
         </span>
         </div>
         <p>
@@ -654,7 +644,14 @@
           <div class="comments__comment">
             <div class="comments__quote">
               <span class="quote">
-                 <img src="img/icons-svg/quote.svg">
+                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.34 147.69"><title>IC-</title>
+    <linearGradient id='quote-gradient' gradientUnits='userSpaceOnUse' x1='18.25%' y1='-9.71%' x2='81.75%' y2='109.71%'>
+        <stop stop-color='#6d6e70'/>
+        <stop offset='.54' stop-color='#e7e7e7'/>
+        <stop offset='.99' stop-color='#929397'/>
+        <stop offset='1' stop-color='#929397'/>
+    </linearGradient>
+    <path fill="url(#quote-gradient)" d="M70.12,77.62v68.26H1.86V86.5q0-30.25,4.72-46.9t20-27.33Q41.82,1.58,70.12.75V29.61q-33.3,5-33.3,41.35v6.66h33.3Zm95.36,0v68.26H97.22V86.5q0-30.25,4.59-46.9t20.06-27.33Q137.34,1.58,165.48.75V29.61q-33.3,5-33.3,41.35,0,2.22.28,6.66h33Z"/></svg>
               </span>
             </div>
             <p>
@@ -676,7 +673,14 @@
           <div class="comments__comment">
             <div class="comments__quote">
               <span class="quote">
-                 <img src="img/icons-svg/quote.svg">
+                 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.34 147.69"><title>IC-</title>
+    <linearGradient id='quote-gradient' gradientUnits='userSpaceOnUse' x1='18.25%' y1='-9.71%' x2='81.75%' y2='109.71%'>
+        <stop stop-color='#6d6e70'/>
+        <stop offset='.54' stop-color='#e7e7e7'/>
+        <stop offset='.99' stop-color='#929397'/>
+        <stop offset='1' stop-color='#929397'/>
+    </linearGradient>
+    <path fill="url(#quote-gradient)" d="M70.12,77.62v68.26H1.86V86.5q0-30.25,4.72-46.9t20-27.33Q41.82,1.58,70.12.75V29.61q-33.3,5-33.3,41.35v6.66h33.3Zm95.36,0v68.26H97.22V86.5q0-30.25,4.59-46.9t20.06-27.33Q137.34,1.58,165.48.75V29.61q-33.3,5-33.3,41.35,0,2.22.28,6.66h33Z"/></svg>
               </span>
             </div>
             <p>
@@ -698,7 +702,14 @@
           <div class="comments__comment">
             <div class="comments__quote">
               <span class="quote">
-                 <img src="img/icons-svg/quote.svg">
+                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.34 147.69"><title>IC-</title>
+    <linearGradient id='quote-gradient' gradientUnits='userSpaceOnUse' x1='18.25%' y1='-9.71%' x2='81.75%' y2='109.71%'>
+        <stop stop-color='#6d6e70'/>
+        <stop offset='.54' stop-color='#e7e7e7'/>
+        <stop offset='.99' stop-color='#929397'/>
+        <stop offset='1' stop-color='#929397'/>
+    </linearGradient>
+    <path fill="url(#quote-gradient)" d="M70.12,77.62v68.26H1.86V86.5q0-30.25,4.72-46.9t20-27.33Q41.82,1.58,70.12.75V29.61q-33.3,5-33.3,41.35v6.66h33.3Zm95.36,0v68.26H97.22V86.5q0-30.25,4.59-46.9t20.06-27.33Q137.34,1.58,165.48.75V29.61q-33.3,5-33.3,41.35,0,2.22.28,6.66h33Z"/></svg>
               </span>
             </div>
             <p>
@@ -720,7 +731,14 @@
           <div class="comments__comment">
             <div class="comments__quote">
               <span class="quote">
-                 <img src="img/icons-svg/quote.svg">
+                 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.34 147.69"><title>IC-</title>
+    <linearGradient id='quote-gradient' gradientUnits='userSpaceOnUse' x1='18.25%' y1='-9.71%' x2='81.75%' y2='109.71%'>
+        <stop stop-color='#6d6e70'/>
+        <stop offset='.54' stop-color='#e7e7e7'/>
+        <stop offset='.99' stop-color='#929397'/>
+        <stop offset='1' stop-color='#929397'/>
+    </linearGradient>
+    <path fill="url(#quote-gradient)" d="M70.12,77.62v68.26H1.86V86.5q0-30.25,4.72-46.9t20-27.33Q41.82,1.58,70.12.75V29.61q-33.3,5-33.3,41.35v6.66h33.3Zm95.36,0v68.26H97.22V86.5q0-30.25,4.59-46.9t20.06-27.33Q137.34,1.58,165.48.75V29.61q-33.3,5-33.3,41.35,0,2.22.28,6.66h33Z"/></svg>
               </span>
             </div>
             <p>
@@ -763,8 +781,8 @@
       <h2 class="place__title title">
         Место проведения:
       </h2>
-      <div class="place__small-triangle">
-        <img data-original="img/icons-svg/place-triangle--small.svg" alt="" class="js-lazy">
+      <div class="place__small-triangle imacss imacss-place-triangle-small">
+        {#<div class="imacss imacss-place-triangle-small"></div>#}
       </div>
     </header>
     <div class="map" id="map"></div>

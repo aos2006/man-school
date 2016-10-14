@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 147.736 147.736" enable-background="new 0 0 147.736 147.736" xml:space="preserve">
-<circle fill="#FFFFFF" cx="73.868" cy="73.868" r="69.868"/>
+	 viewBox="0 0 147.736 147.736" style="enable-background:new 0 0 147.736 147.736;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_2_);fill:#010101;}
+	.st2{clip-path:url(#SVGID_2_);fill:none;stroke:#010101;stroke-miterlimit:10;}
+	.st3{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);}
+	.st4{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st5{fill:none;stroke:url(#SVGID_4_);stroke-width:8;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="73.868" cy="73.868" r="69.868"/>
 <g>
 	<defs>
 		<circle id="SVGID_1_" cx="73.868" cy="73.868" r="69.868"/>
 	</defs>
 	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
-	<path clip-path="url(#SVGID_2_)" fill="#010101" d="M45.982,83.833c-4.221-18.856,1.345-27.386,12.833-29.667
-		C71.672,48.16,84.006,47.499,95.148,59c5.167,5.5,4.21,12.7,3.167,24.833h-3.333c0,0-0.667,9.833-1,8.833
-		c-0.333-1-1.333-10.333-1.333-10.333c-17.893-0.478-28.865-6.838-35.167-17.167c0.211,5.081-1.098,10.473-5.5,16.5
-		c0,0,0.167,12.476-0.167,11.071c-0.333-1.405-2.333-9.405-2.333-9.405L45.982,83.833z"/>
-	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#010101" stroke-miterlimit="10" d="M45.982,83.833
-		c-5.866,4.827-1.91,10.415,4.167,16.167c6.317,11.343,13.349,20.344,23.333,19.667c8.384,0.654,15.642-6.976,22.167-20
-		c6.598-7.054,7.592-12.364,2.667-15.833"/>
+	<path class="st1" d="M45.982,83.833c-4.221-18.856,1.345-27.386,12.833-29.667C71.672,48.16,84.006,47.499,95.148,59
+		c5.167,5.5,4.21,12.7,3.167,24.833h-3.333c0,0-0.667,9.833-1,8.833c-0.333-1-1.333-10.333-1.333-10.333
+		c-17.893-0.478-28.865-6.838-35.167-17.167c0.211,5.081-1.098,10.473-5.5,16.5c0,0,0.167,12.476-0.167,11.071
+		c-0.333-1.405-2.333-9.405-2.333-9.405L45.982,83.833z"/>
+	<path class="st2" d="M45.982,83.833c-5.866,4.827-1.91,10.415,4.167,16.167c6.317,11.343,13.349,20.344,23.333,19.667
+		c8.384,0.654,15.642-6.976,22.167-20c6.598-7.054,7.592-12.364,2.667-15.833"/>
 	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="54.186" y1="116.2875" x2="99.0235" y2="161.125">
 		<stop  offset="0" style="stop-color:#919394"/>
 		<stop  offset="0.465" style="stop-color:#EBEBEB"/>
 		<stop  offset="1" style="stop-color:#919394"/>
 	</linearGradient>
-	<path clip-path="url(#SVGID_2_)" fill="url(#SVGID_3_)" d="M34.148,136.5c0-0.667,8.953-8.167,8.953-8.167l16.547-6v-8.768
-		l6.903,4.925l6.93,1.176l7.63-1.777l4.242-3.183v6.627l24.294,10.167l6.667,7.5l-9.667,14.5l-46.667,4L34.148,136.5z"/>
-	<polygon clip-path="url(#SVGID_2_)" fill="#010101" points="22.357,55.5 30.606,55.5 36.607,60.812 36.481,55.5 40.857,55.5 
-		40.857,43.062 22.357,43.062 	"/>
-	<rect x="25.607" y="45.812" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="11.812" height="1.312"/>
-	<rect x="25.607" y="48.611" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="11.812" height="1.312"/>
-	<rect x="25.607" y="51.409" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="11.812" height="1.312"/>
-	<polygon clip-path="url(#SVGID_2_)" fill="#010101" points="122.732,56.284 114.482,56.284 108.482,61.596 108.607,56.284 
-		104.232,56.284 104.232,43.846 122.732,43.846 	"/>
-	<rect x="107.669" y="46.596" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="11.812" height="1.312"/>
-	<rect x="107.669" y="49.395" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="11.812" height="1.312"/>
-	<rect x="107.669" y="52.193" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="11.812" height="1.312"/>
-	<polygon clip-path="url(#SVGID_2_)" fill="#010101" points="48.919,39.607 60.044,39.607 68.137,46.771 67.967,39.607 
-		73.868,39.607 73.868,22.834 48.919,22.834 	"/>
-	<rect x="53.302" y="26.542" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="15.93" height="1.77"/>
-	<rect x="53.302" y="30.316" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="15.93" height="1.77"/>
-	<rect x="53.302" y="34.089" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="15.93" height="1.77"/>
+	<path class="st3" d="M34.148,136.5c0-0.667,8.953-8.167,8.953-8.167l16.547-6v-8.768l6.903,4.925l6.93,1.176l7.63-1.777
+		l4.242-3.183v6.627l24.294,10.167l6.667,7.5l-9.667,14.5l-46.667,4L34.148,136.5z"/>
+	<polygon class="st1" points="22.357,55.5 30.606,55.5 36.607,60.812 36.481,55.5 40.857,55.5 40.857,43.062 22.357,43.062 	"/>
+	<rect x="25.607" y="45.812" class="st4" width="11.812" height="1.312"/>
+	<rect x="25.607" y="48.611" class="st4" width="11.812" height="1.312"/>
+	<rect x="25.607" y="51.409" class="st4" width="11.812" height="1.312"/>
+	<polygon class="st1" points="122.732,56.284 114.482,56.284 108.482,61.596 108.607,56.284 104.232,56.284 104.232,43.846 
+		122.732,43.846 	"/>
+	<rect x="107.669" y="46.596" class="st4" width="11.812" height="1.312"/>
+	<rect x="107.669" y="49.395" class="st4" width="11.812" height="1.312"/>
+	<rect x="107.669" y="52.193" class="st4" width="11.812" height="1.312"/>
+	<polygon class="st1" points="48.919,39.607 60.044,39.607 68.137,46.771 67.967,39.607 73.868,39.607 73.868,22.834 48.919,22.834 
+			"/>
+	<rect x="53.302" y="26.542" class="st4" width="15.93" height="1.77"/>
+	<rect x="53.302" y="30.316" class="st4" width="15.93" height="1.77"/>
+	<rect x="53.302" y="34.089" class="st4" width="15.93" height="1.77"/>
 </g>
 <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="21.6355" y1="126.101" x2="126.101" y2="21.6355">
 	<stop  offset="0" style="stop-color:#707071"/>
 	<stop  offset="0.5" style="stop-color:#EBEBEB"/>
 	<stop  offset="1" style="stop-color:#919394"/>
 </linearGradient>
-<circle fill="none" stroke="url(#SVGID_4_)" stroke-width="8" stroke-miterlimit="10" cx="73.868" cy="73.868" r="69.868"/>
+<circle class="st5" cx="73.868" cy="73.868" r="69.868"/>
 </svg>
