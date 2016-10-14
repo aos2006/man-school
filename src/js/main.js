@@ -164,7 +164,13 @@ $(document).ready(function() {
   var closeForm = $('.js-close-form');
   var modalForm = $('.js-modal-form');
   var btnShowModal = $('.js-show-modal');
+  var deviceHeight = $(window).height();
+  var deviceWidth = $(window).width();
+  var bannerHeight = $('.banner').height();
 
+  if (deviceWidth > 1024 && deviceHeight > bannerHeight) {
+    $('.banner').height(deviceHeight)
+  }
   $('.js-lazy').lazyload({
     threshold : 500
   });
