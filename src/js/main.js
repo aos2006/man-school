@@ -182,6 +182,7 @@ $(document).ready(function() {
   slider.slick({
     nextArrow: nextArrow,
     prevArrow: prevArrow,
+    lazyLoad: 'ondemand'
   });
 
   sliderComment.slick({
@@ -189,14 +190,15 @@ $(document).ready(function() {
     slidesToScroll: 1,
     nextArrow: $('.comments__arrow--right'),
     prevArrow: $('.comments__arrow--left'),
-    lazyLoad: 'progressive',
+    lazyLoad: 'ondemand',
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: false
+          dots: false,
+          lazyLoad: 'ondemand'
         }
       },
       {
@@ -206,7 +208,8 @@ $(document).ready(function() {
           slidesToScroll: 1,
           dots: true,
           appendDots: $('.js-comments-dots'),
-          dotsClass: 'comments__dots'
+          dotsClass: 'comments__dots',
+          lazyLoad: 'ondemand',
         }
       }
     ]
