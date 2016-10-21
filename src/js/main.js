@@ -184,11 +184,11 @@ $(document).ready(function() {
       sliderMenu.removeClass('slider-menu--show');
     }
   };
-
   slider.slick({
     nextArrow: nextArrow,
     prevArrow: prevArrow,
-    lazyLoad: 'ondemand'
+    lazyLoad: 'progressive',
+    adaptiveHeight: true
   });
 
   sliderComment.slick({
